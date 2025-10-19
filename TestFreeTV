@@ -1,38 +1,26 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz"
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Y0RQhHTV/1tv.png" group-title="Эфирные",Первый канал HD по МСК
-https://tt.tas-ix.media:444/perviy_kanal/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Sxpnwgnk/russia1.png" group-title="Эфирные",Россия 1 HD по МСК
-https://tt.tas-ix.media:444/Rossia_1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1tMKkHbG/matchtv.png" group-title="Эфирные",Матч ТВ HD по МСК
-http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/B6W1W0PQ/ntv.png" group-title="Эфирные", НТВ
-http://95.163.85.128/streams/media/ntv_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные",Россия 24 HD по МСК
-http://185.46.16.239:8000/Rossiya_24
-#EXTINF:-1 group-title="Эфирные", Карусель
-http://95.163.85.128/streams/media/karusel_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные",Спас HD по МСК
-http://95.47.156.60:8000/play/12/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4xMxjxZc/ctc.png" group-title="Эфирные", СТС
-http://95.163.85.128/streams/media/ctc_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные",Домашний HD по МСК
-http://95.47.156.60:8000/play/14/index.m3u8
-#EXTINF:-1 group-title="Эфирные" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/109/logo_256_1655448739.png", Пятница!
+http://178.212.71.253:8000/play/34/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/B6W1W0PQ/ntv.png" group-title="Эфирные",НТВ HD по МСК
+http://87.246.54.249:8085/HTB/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4xMxjxZc/ctc.png" group-title="Эфирные",СТС HD по МСК
+http://87.246.54.249:8085/CTC/index.m3u8
+#EXTINF:-1 group-title="Эфирные",Мир HD по МСК
+http://tv.ttk.mx:9140
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8cmcD8b4/tnt.png" group-title="Эфирные",ТНТ HD по МСК
+http://87.246.54.249:8085/THT/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Sxpnwgnk/russia1.png" group-title="Эфирные", Россия 1 HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="Эфирные" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/113/logo_256_1655445172.png", РЕН ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-#EXTINF:-1 group-title="Эфирные", Звезда
-https://flussonic.salomtv.uz/zvezda/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/8cmcD8b4/tnt.png" group-title="Эфирные", ТНТ
-http://95.163.85.128/streams/media/tnt_720x576/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/8P4RHjTd/rentv.png" group-title="Эфирные", Рен ТВ
-http://95.163.85.128/streams/media/ren-tv_720x576/index.m3u8
-#EXTINF:-1 group-title="Эфирные",МИР
-http://95.47.156.60:8000/play/18/index.m3u8
-#EXTINF:-1 group-title="Фильмы", TV1000 HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=mlm-EOnX8fTU0Rv6AhINsw&e=1761764735&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 group-title="Фильмы",viju TV1000 romantica
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=yE_DBzOm6sPdQ3U1yYIVaQ&e=1761764800&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 group-title="Фильмы", TV1000 Action
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=l9e_aN8EtseFn70Epaunxg&e=1761764827&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+#EXTINF:-1 group-title="Фильмы", TV1000 HD
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=mlm-EOnX8fTU0Rv6AhINsw&e=1761764735&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+#EXTINF:-1 group-title="Фильмы",TV1000 Русское кино
+http://213.169.39.30:5006
 #EXTINF:-1 group-title="Фильмы", Дом кино
 https://flussonic.salomtv.uz/domkino/video.m3u8
 #EXTINF:-1 group-title="Фильмы", Русский детектив
@@ -43,14 +31,12 @@ https://live-erostv.cdnvideo.ru/erostv/erostv.sdp/playlist.m3u8
 http://85.11.144.6:6060/play/a07v/index.m3u8
 #EXTINF:-1 group-title="Фильмы", TV1000 Action
 https://flussonic.salomtv.uz/vijuTV1000action/video.m3u8
-#EXTINF:-1 group-title="Фильмы",TV1000 Русское кино
-http://213.169.39.30:5006
 #EXTINF:-1 group-title="Фильмы",TV1000 action
 http://80.77.52.3/streams/media/tv1000action_720x576/index.m3u8
-#EXTINF:-1 group-title="Фильмы",Русский Роман
-http://vod.tuva.ru/rusroman/index.m3u8
 #EXTINF:-1 group-title="Фильмы",Еврокино
 http://vod.tuva.ru/eurokino/index.m3u8
+#EXTINF:-1 group-title="Фильмы",Русский Роман
+http://vod.tuva.ru/rusroman/index.m3u8
 #EXTINF:-1 group-title="Фильмы",КИНО
 https://tt.tas-ix.media:444/telegram/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы",Родное кино
@@ -537,26 +523,26 @@ http://127.0.0.1:6878/ace/getstream?id=038b448c810cad19a2a9e615d94696a23141e379
 http://84.245.224.71/StarCinemaHD/mono.m3u8
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/J4wRwcQn/i-TV-Cinema-Logo.png",ITV Cinema
 https://iptv.itv.uz/hls/live/t/UAcSEExX5UamlFqFOIaXIA/e/1767191403/4000/index.m3u8
-#EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/D06WvJWn/1.png", IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО
-http://5.188.158.65:4040/IPTVPLAY10KOROLEVSTVO.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/Rh516HVw/1.png", IPTVPLAY МультСказки HD
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:-1 group-title="Кинозалы"  tvg-logo="https://i.postimg.cc/3N8Rc8tq/1.png", IPTVPLAY ИНТЕРНЫ
-http://5.188.158.65:4040/IPTVPLAYINTERNY.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/D06WvJWn/1.png", IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО
+http://5.188.158.65:4040/IPTVPLAY10KOROLEVSTVO.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/mDMCsgNL/1.png", IPTVPLAY ВЕДЬМАК
 http://5.188.158.65:4040/IPTVPLAYVEDMAK.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Кинозалы"  tvg-logo="https://i.postimg.cc/3N8Rc8tq/1.png", IPTVPLAY ИНТЕРНЫ
+http://5.188.158.65:4040/IPTVPLAYINTERNY.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.ibb.co/pbxx3Sd/Fantastika.png", IPTVPLAY ФАНТАСТИКА
 http://5.188.158.65:4040/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.ibb.co/7gj4dQM/Pamyat.png", IPTVPLAY ПАМЯТЬ
 http://5.188.158.65:4040/IPTVPLAYPAMYAT.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.ibb.co/LZkQq0x/Uzhastik.png", IPTVPLAY УЖАСТИК
-http://5.188.158.65:4040/IPTVPLAYUZHASTIK.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.postimg.cc/v8KFj826/1.png", IPTVPLAY Великая Отечественная HD
 http://5.188.158.65:4040/IPTVPLAYVOV.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:-1 group-title="Кинозалы",Cinema
-http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кинозалы" tvg-logo="https://i.ibb.co/LZkQq0x/Uzhastik.png", IPTVPLAY УЖАСТИК
+http://5.188.158.65:4040/IPTVPLAYUZHASTIK.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы",Cinema
 http://catchup.videoline.ru/cinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кинозалы",Cinema
+http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кинозалы" tvg-logo="https://pic.rutube.ru/video/ec/62/ec62a116bb2e1320fbd89fb433eea909.jpg", 4K 60fps COLORFUL WORLD - TRUE CINEMATIC
 https://river-1.rutube.ru/hls-vod/tZIe5ytY4OeX5pNsQ-ZTGg/1761412801/2199/0x5000c500e7189664/5b568af64882481c850fa2e1fe591cdd.mp4.m3u8?i=3840x2160_19199
 #EXTINF:-1 group-title="Кинозалы",Cinema
@@ -591,182 +577,202 @@ http://127.0.0.1:6878/ace/getstream?id=4d6232def7e751c47eb44a017021055e8362b54a
 http://127.0.0.1:6878/ace/getstream?id=ed699504c5010cab9046530306960e998a92f5e6
 #EXTINF:-1 group-title="Кинозалы",Ultra HD Cinema
 http://127.0.0.1:6878/ace/getstream?id=6c76dccd15ff935fb1442223529d1aecc8f515d8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
-http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/76BWD3tc/1.gif",Обновление:19.10.2025
-http://194.26.229.213/zastavka/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/RCgvJhdQ/image.png",СоюзМультфильм
-http://194.26.229.213/souzmultfilm/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3rkRjpjC/photo-2024-01-14-15-41-50.jpg",CHD-TV RU Rock HD
-http://194.26.229.213/chdtv_ru_rock/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/nrj0J6Dj/1.png",Android TV + Free TV
 http://194.26.229.213/intro/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/MHNdgRXj/photo-2024-01-14-15-42-03.jpg",CHD-TV Rock
 http://194.26.229.213/chdtv_rock/index.m3u8
-#EXTINF:-1 group-title="Прочие",Fox Life HD
-http://188.237.47.212:6008
-#EXTINF:-1 group-title="Прочие",Nat Geo Wild HD
-http://188.237.47.212:6005
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3rkRjpjC/photo-2024-01-14-15-41-50.jpg",CHD-TV RU Rock HD
+http://194.26.229.213/chdtv_ru_rock/index.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/76BWD3tc/1.gif",Обновление:19.10.2025
+http://194.26.229.213/zastavka/index.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/RCgvJhdQ/image.png",СоюзМультфильм
+http://194.26.229.213/souzmultfilm/index.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
+http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
+#EXTINF:-1 group-title="Прочие",.Black
+http://188.237.47.212:6007
 #EXTINF:-1 group-title="Прочие",.Sci-Fi
 http://188.237.47.212:6001
 #EXTINF:-1 group-title="Прочие",Star Family HD
 http://84.245.224.71/StarFamilyHD/mono.m3u8
-#EXTINF:-1 group-title="Прочие",.Black
-http://188.237.47.212:6007
+#EXTINF:-1 group-title="Прочие",Nat Geo Wild HD
+http://188.237.47.212:6005
+#EXTINF:-1 group-title="Прочие",Fox Life HD
+http://188.237.47.212:6008
 #EXTINF:-1 group-title="Прочие",Настоящее время
 http://213.169.39.30:5241
+#EXTINF:-1 group-title="Прочие",Bolt HD
+http://84.245.224.71/BoltHD/mono.m3u8
+#EXTINF:-1 group-title="Прочие", Уникум
+https://flussonic.salomtv.uz/Detskiy/video.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4 International
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:-1 group-title="Прочие",СТС International
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
 #EXTINF:-1 group-title="Прочие",Пятница! International
 https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
-#EXTINF:-1 group-title="Прочие",Bolt HD
-http://84.245.224.71/BoltHD/mono.m3u8
 #EXTINF:-1 group-title="Прочие", EURONEWS
 https://flussonic.salomtv.uz/EURONEWS/video.m3u8
-#EXTINF:-1 group-title="Прочие", Уникум
-https://flussonic.salomtv.uz/Detskiy/video.m3u8
+#EXTINF:-1 group-title="Прочие", Первый канал
+https://flussonic.salomtv.uz/perviy_kanal/video.m3u8
 #EXTINF:-1 group-title="Прочие", Makon TV
 https://flussonic.salomtv.uz/Makon_TV/video.m3u8
 #EXTINF:-1 group-title="Прочие", RU.TV
 https://flussonic.salomtv.uz/rutv/video.m3u8
-#EXTINF:-1 group-title="Прочие", Eurosport 2 HD
-https://flussonic.salomtv.uz/eurosport_2/video.m3u8
 #EXTINF:-1 group-title="Прочие", Телекафе
 https://flussonic.salomtv.uz/telekafe/video.m3u8
+#EXTINF:-1 group-title="Прочие", Звезда
+https://flussonic.salomtv.uz/zvezda/video.m3u8
 #EXTINF:-1 group-title="Прочие", Futbol TV
 https://flussonic.salomtv.uz/FutbolTV/video.m3u8
+#EXTINF:-1 group-title="Прочие", Eurosport 2 HD
+https://flussonic.salomtv.uz/eurosport_2/video.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/MTbNhVZc/i-TV-Music-Logo.png",ITV Music
+https://iptv.itv.uz/hls/live/t/IDvfbmZ5Ibmqs0plMhNejg/e/1767191403/4001/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/25VcB58T/auto-x2-1.jpg",🔺 INFO 🔺Посмотри!!!
 https://github.com/Dimonovich/TV/releases/download/v1.0.0/1.mp4
+#EXTINF:-1 group-title="Прочие",MTV
+http://85.11.144.6:6060/play/a08w/index.m3u8
 #EXTINF:-1 group-title="Прочие",MTV 00s
 http://85.11.144.6:6060/play/a07g/index.m3u8
 #EXTINF:-1 group-title="Прочие",MTV 90s
 http://85.11.144.6:6060/play/a09o/index.m3u8
-#EXTINF:-1 group-title="Прочие",MTV
-http://85.11.144.6:6060/play/a08w/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/MTbNhVZc/i-TV-Music-Logo.png",ITV Music
-https://iptv.itv.uz/hls/live/t/IDvfbmZ5Ibmqs0plMhNejg/e/1767191403/4001/index.m3u8
-#EXTINF:-1 group-title="Прочие",OTV HD
-http://84.245.224.71/OTV/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Super Baltic HD
 http://84.245.224.71/SuperBaltic/mono.m3u8
-#EXTINF:-1 group-title="Прочие",Super Plus HD
-http://84.245.224.71/SuperPlus/mono.m3u8
-#EXTINF:-1 group-title="Прочие",Fashion TV HD
-http://84.245.224.71/FashionTVHD/mono.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-id="skif-vitebsk",Скиф ТВ
 http://95.46.208.8:24432/skif
-#EXTINF:-1 group-title="Прочие",KHL HD
-http://84.245.224.71/KHLHD/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Super Plus HD
+http://84.245.224.71/SuperPlus/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Дача
 http://84.245.224.71/DachaHD/mono.m3u8
+#EXTINF:-1 group-title="Прочие",OTV HD
+http://84.245.224.71/OTV/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Fashion TV HD
+http://84.245.224.71/FashionTVHD/mono.m3u8
+#EXTINF:-1 group-title="Прочие",KHL HD
+http://84.245.224.71/KHLHD/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Загородная жизнь
 http://185.57.68.33/40/index.m3u8
 #EXTINF:-1 group-title="Прочие",CGTN Русский
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
-#EXTINF:-1 group-title="Прочие", Россия К
-http://95.163.85.128/streams/media/kultura_720x576/index.m3u8
-#EXTINF:-1 group-title="Прочие", Матч! Страна
-http://95.163.85.128/streams/media/match-strana_720x576/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="http://194.26.229.4/live/pda.png",OnlineTV
-http://185.221.213.254:8080/Okko/index.m3u8
 #EXTINF:-1 group-title="Прочие", Матч Премьер
 http://levshanov.tlkf.ru/iptv/nashfootballhd/16/h1080/playlist.m3u8
-#EXTINF:-1 group-title="Прочие",НСТ
-http://80.77.52.3/streams/media/nstv_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="http://194.26.229.4/live/pda.png",OnlineTV
+http://185.221.213.254:8080/Okko/index.m3u8
+#EXTINF:-1 group-title="Прочие", Матч! Страна
+http://95.163.85.128/streams/media/match-strana_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", Россия К
+http://95.163.85.128/streams/media/kultura_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", НТВ
+http://95.163.85.128/streams/media/ntv_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", ТНТ
+http://95.163.85.128/streams/media/tnt_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", Рен ТВ
+http://95.163.85.128/streams/media/ren-tv_720x576/index.m3u8
 #EXTINF:-1 group-title="Прочие", a2
 http://95.163.85.128/streams/media/a2_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", СТС
+http://95.163.85.128/streams/media/ctc_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", Музыка Первого
+http://95.163.85.128/streams/media/muzyka-pervogo_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие",НСТ
+http://80.77.52.3/streams/media/nstv_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие", Карусель
+http://95.163.85.128/streams/media/karusel_720x576/index.m3u8
 #EXTINF:-1 group-title="Прочие", ТВЦ
 http://95.163.85.128/streams/media/tv-centr_720x576/index.m3u8
 #EXTINF:-1 group-title="Прочие",TV25 GE
 http://80.77.52.3/streams/media/tv-25_720x576/index.m3u8
-#EXTINF:-1 group-title="Прочие", Музыка Первого
-http://95.163.85.128/streams/media/muzyka-pervogo_720x576/index.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие", Пингвин Лоло
 http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие",Телекафе
-http://45.11.139.43:8555/telekafe/index.m3u8
 #EXTINF:-1 group-title="Прочие", Мамонтёнок
 http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие",РБК
-http://45.11.139.43:8555/rbk/index.m3u8
-#EXTINF:-1 group-title="Прочие", 365 дней
-http://45.11.139.43:8555/365dney/index.m3u8
 #EXTINF:-1 group-title="Прочие", Детский телеканал Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие",Матч HD
-https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#EXTINF:-1 group-title="Прочие",Про бизнес
-http://176.107.219.20:9000/play/a003/index.m3u8
-#EXTINF:-1 group-title="Прочие",Светлое ТВ
-http://176.107.219.20:9000/play/a009/index.m3u8
 #EXTINF:-1 group-title="Прочие",8 канал
 http://cdn-01.bonus-tv.ru:80/8kanal/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Прочие",Просвещение
 http://cdn-01.bonus-tv.ru:80/prosveschenie_edge/index.m3u8
+#EXTINF:-1 group-title="Прочие",РБК
+http://45.11.139.43:8555/rbk/index.m3u8
+#EXTINF:-1 group-title="Прочие",Матч HD
+https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
+#EXTINF:-1 group-title="Прочие",Про бизнес
+http://176.107.219.20:9000/play/a003/index.m3u8
+#EXTINF:-1 group-title="Прочие",Телекафе
+http://45.11.139.43:8555/telekafe/index.m3u8
+#EXTINF:-1 group-title="Прочие", 365 дней
+http://45.11.139.43:8555/365dney/index.m3u8
 #EXTINF:-1 group-title="Прочие",Крик-ТВ
 http://cdn-01.bonus-tv.ru:80/kriktv_edge/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-id="pro100", Про100 ТВ
-https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 group-title="Прочие",Светлое ТВ
+http://176.107.219.20:9000/play/a009/index.m3u8
+#EXTINF:-1 group-title="Прочие",9 ВОЛНА
+http://185.46.48.18:80/asvtv/index.m3u8
 #EXTINF:-1 group-title="Прочие",Arirang Korea
 https://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-id="pro100", Про100 ТВ
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1 group-title="Прочие",Осетия Иристон
 http://185.46.48.18:80/iriston/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",МАТЧ ТВ
+http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Kino TV
+http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1 group-title="Прочие",Звезда (+4)
 http://vod.tuva.ru/zvezda/index.m3u8
 #EXTINF:-1 group-title="Прочие",Пятница
 http://vod.tuva.ru/friday/index.m3u8
-#EXTINF:-1 group-title="Прочие",9 ВОЛНА
-http://185.46.48.18:80/asvtv/index.m3u8
-#EXTINF:-1 group-title="Прочие",НСТ
-http://vod.tuva.ru/nst/index.m3u8
-#EXTINF:-1 group-title="Прочие",Kino TV
-http://vod.tuva.ru/kinotv/index.m3u8
-#EXTINF:-1 group-title="Прочие",OVAA TV
-http://vod.tuva.ru/ovaa/index.m3u8
-#EXTINF:-1 group-title="Прочие",Моя Планета
-http://vod.tuva.ru/myplanet/index.m3u8
-#EXTINF:-1 group-title="Прочие",24 Тува
-http://vod.tuva.ru/tuva24/index.m3u8
-#EXTINF:-1 group-title="Прочие",Наука 2.0
-http://vod.tuva.ru/nauka2/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/m2FWVxW3/Background-Eraser-20230805-095630572.png",ТВОЕ ТВ HD - ЮМОР
-http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="http://epg.it999.ru/img2/5441.png",ТВОЕ ТВ HD
 http://tvoetv.space:8080/tvoetv/index.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg", DOLBY VISION OLED Test Video (2024)
-https://river-1.rutube.ru/hls-vod/oZSEH5aBuqc4ROh6wKGQrw/1761412797/2213/0x5000c5007446d73f/02f4d1ecfcf04a3889a2d8789adc10d0.mp4.m3u8?i=1920x1080_7307
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/ec/3d/ec3d950ca1dbeac9c8017df68179aa35.jpg", Камин
-https://river-1.rutube.ru/hls-vod/jkpkZsIxZgm5_6AhzP338g/1761412795/1899/0x5000c500e511570c/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg", 4K ULTRA HD
-https://river-1.rutube.ru/hls-vod/kDjWxrF7zN7XyqnydDPI2g/1761412798/1796/0x5000c5007443177b/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/2024-11-11/93/1c/931c2e26c7cf0c9cd46994dd45f5fdd0.jpg", 4K Video ULTRA HD 60 FPS
-https://river-1.rutube.ru/hls-vod/GmAJ8ezY5B-uXde7I9s8zg/1761412796/2446/0x5000c500e883c25e/02951eadad024ba5bacf776269f05cf6.mp4.m3u8?i=3840x2160_22670
+#EXTINF:-1 group-title="Прочие",НСТ
+http://vod.tuva.ru/nst/index.m3u8
+#EXTINF:-1 group-title="Прочие",24 Тува
+http://vod.tuva.ru/tuva24/index.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://tv.tuva.ru/machtv/index.m3u8
+#EXTINF:-1 group-title="Прочие",Моя Планета
+http://vod.tuva.ru/myplanet/index.m3u8
+#EXTINF:-1 group-title="Прочие",Наука 2.0
+http://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://assets.iptv2022.com/static/channel/10459/logo_128_1652790001.png",Прима
 http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_Prima/hls/1920x1080@4504/playlist.m3u8
+#EXTINF:-1 group-title="Прочие",OVAA TV
+http://vod.tuva.ru/ovaa/index.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://assets.iptv2022.com/static/channel/10539/logo_256_1655389509.png",4 канал
+http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://assets.iptv2022.com/static/channel/10150/logo_256_1655387037.png",Волга
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg", DOLBY VISION OLED Test Video (2024)
+https://river-1.rutube.ru/hls-vod/oZSEH5aBuqc4ROh6wKGQrw/1761412797/2213/0x5000c5007446d73f/02f4d1ecfcf04a3889a2d8789adc10d0.mp4.m3u8?i=1920x1080_7307
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/m2FWVxW3/Background-Eraser-20230805-095630572.png",ТВОЕ ТВ HD - ЮМОР
+http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/0d/56/0d56e874bcbea5a47faaf78fbd97c6e1.jpg", COLORFUL WORLD ANIMALS - ANIMALS SOUNDS
 https://river-1.rutube.ru/hls-vod/0mWEuQGmhNa78euDc4zlBQ/1761412799/2211/0x5000c500e72ad81b/44fa52380d5648fe8b8c49571feba70e.mp4.m3u8?i=3840x2160_22872
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/2024-11-11/93/1c/931c2e26c7cf0c9cd46994dd45f5fdd0.jpg", 4K Video ULTRA HD 60 FPS
+https://river-1.rutube.ru/hls-vod/GmAJ8ezY5B-uXde7I9s8zg/1761412796/2446/0x5000c500e883c25e/02951eadad024ba5bacf776269f05cf6.mp4.m3u8?i=3840x2160_22670
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/ec/3d/ec3d950ca1dbeac9c8017df68179aa35.jpg", Камин
+https://river-1.rutube.ru/hls-vod/jkpkZsIxZgm5_6AhzP338g/1761412795/1899/0x5000c500e511570c/8311ad94048f47808d4e72cc32aa7238.mp4.m3u8?i=3840x2160_6480
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/39/b8/39b8682bf458aa9a88963f0de920b505.jpg", THE MOST BEAUTIFUL 4K 60fps
 https://river-1.rutube.ru/hls-vod/S0VfUFHWzuQ2qspO3D-MAA/1761412804/2229/0x5000c500e658a29c/e7c39d45322d4f3c9e8ad0fdc9a9b1ff.mp4.m3u8?i=3840x2160_19712
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/d8/14/d8145d9a9bbcd2c426c6ca2b3a5a7b87.jpg", 4K Удивительные животные
+https://river-1.rutube.ru/hls-vod/0ER87X9KTjHfIb9XSP0ISA/1761412802/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
+#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg", 4K ULTRA HD
+https://river-1.rutube.ru/hls-vod/kDjWxrF7zN7XyqnydDPI2g/1761412798/1796/0x5000c5007443177b/8baceb688d3548c0a29a40f3980bceea.mp4.m3u8?i=3840x2160_24688
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/6b/dc/6bdc4cfedb4f634e840ac2f5c808022f.jpg", 4K 60fps
 https://river-1.rutube.ru/hls-vod/he_qOPKvULQdX4IS-wZ8bg/1761412800/1782/0x5000c500c3211674/7c025c3ad6c4443fadb4f1eff257dcba.mp4.m3u8?i=1920x1080_8078
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/e4/e1/e4e1f5a94dc1ca569aeb2516c1c003bb.jpg", Demo 4K
 https://river-1.rutube.ru/hls-vod/v9m30CmuK9eXLr0WGYZJAQ/1761412803/1871/0x5000c500e511384b/421ebe9f76d9401e930258997bf8efa3.mp4.m3u8?i=1920x1080_6919
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/d8/14/d8145d9a9bbcd2c426c6ca2b3a5a7b87.jpg", 4K Удивительные животные
-https://river-1.rutube.ru/hls-vod/0ER87X9KTjHfIb9XSP0ISA/1761412802/1772/0x5000c500db80bc6a/80e76c2d86c74a98a6d49b3d3f5abf97.mp4.m3u8?i=3840x2160_11616
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://assets.iptv2022.com/static/channel/10150/logo_256_1655387037.png",Волга
-http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://assets.iptv2022.com/static/channel/10539/logo_256_1655389509.png",4 канал
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_EKB1/hls/1024x576@2024/playlist.m3u8
-#EXTINF:-1 group-title="Прочие",43 канал HD
-http://sochinskayatrk.ru/hdtv/hls/43K_HD/playlist.m3u8
 #EXTINF:-1 group-title="Прочие",CTPK HD
 http://sochinskayatrk.ru/hdtv/hls/CTPK_HD/playlist.m3u8
-#EXTINF:-1 group-title="Прочие",Baby Time
-http://185.221.213.254/live/stream3.php?q=OWWGT5_z5DqjdLW9cndeOmc5aO6pnRbuSajO28AMNZlvQmeXQ_iWHp0Fz7MTnr3Oug7p6sHgeRtqTpR_WNEipjpEyv53G58Wj1Rgv9ETCR2JV3w3LyhyhHvewwSEDBXT&token=MjIyMjoyMjIyMjI=
+#EXTINF:-1 group-title="Прочие",43 канал HD
+http://sochinskayatrk.ru/hdtv/hls/43K_HD/playlist.m3u8
 #EXTINF:-1 group-title="Прочие",Вкус
 http://185.221.213.254/live/stream3.php?q=OWWGT5_z5DqjdLW9cndeOmc5aO6pnRbuSajO28AMNZnFb4iJ1Qqz9GhIHTeL4yM1l2znOI0P3E3qK6ZJZpdLTxJI2L3yFRy96n1gw-7mc-c3-houtWFSgQ0Blyh5QuU6&token=MjIyMjoyMjIyMjI=
+#EXTINF:-1 group-title="Прочие",Baby Time
+http://185.221.213.254/live/stream3.php?q=OWWGT5_z5DqjdLW9cndeOmc5aO6pnRbuSajO28AMNZlvQmeXQ_iWHp0Fz7MTnr3Oug7p6sHgeRtqTpR_WNEipjpEyv53G58Wj1Rgv9ETCR2JV3w3LyhyhHvewwSEDBXT&token=MjIyMjoyMjIyMjI=
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/d0/e6/d0e61eaaf75c5de99cce846c6fc6d9ba.jpg", Razer Sharp 60 fps 4K
 https://river-1.rutube.ru/hls-vod/W9zlA5oCNoLvYAiPWlIZJQ/1761412805/1850/0x5000cca2841e4ccc/9d8aa402df5c4f0db9f490133d549d5d.mp4.m3u8?i=1920x1080_7919
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg", 100 000 ЗАХВАТЫВАЮЩИХ ПЕЙЗАЖЕЙ
@@ -901,6 +907,12 @@ https://river-1.rutube.ru/hls-vod/XTap3u5jFltcakXDqIY_8Q/1761412870/1790/0x5000c
 https://river-1.rutube.ru/hls-vod/JkDMyePcDnLK90H-fJtgMQ/1761412871/1788/0x5000c500c939412d/954d4f0b6c9640eea3b9d0daff375899.mp4.m3u8?i=3840x2160_12765
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://pic.rutube.ru/video/8a/8f/8a8fb71bed7423746a80654fc5ba541e.jpg", Лес В 4К
 https://river-1.rutube.ru/hls-vod/hdmi7D_BTNl1xJewbY94eQ/1761412872/1846/0x5000c500c921884f/3a14e22cc0b24da0b4c9994cfbbfff0a.mp4.m3u8?i=3840x2160_15561
+#EXTINF:-1 group-title="Прочие",Первый канал
+https://tt.tas-ix.media:444/perviy_kanal/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+https://tt.tas-ix.media:444/Rossia_1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+https://tt.tas-ix.media:444/ntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Техно 24
 https://tt.tas-ix.media:444/Techno24/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Охота и Рыбалка
@@ -947,6 +959,8 @@ https://tt.tas-ix.media:444/toshkent/tracks-v1a1/mono.m3u8
 https://tt.tas-ix.media:444/Animal_Planet/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Nickelodeon
 https://tt.tas-ix.media:444/disney_channel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+https://tt.tas-ix.media:444/karusel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Детский мир
 https://tt.tas-ix.media:444/detskiy_mir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",ТВ3
@@ -957,6 +971,8 @@ https://tt.tas-ix.media:444/muztv/tracks-v1a1/mono.m3u8
 https://tt.tas-ix.media:444/muzika_pervogo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Футбол
 https://tt.tas-ix.media:444/futboltv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+https://tt.tas-ix.media:444/match/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Арена
 https://tt.tas-ix.media:444/match_arena/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Футбол 1
@@ -969,14 +985,26 @@ https://tt.tas-ix.media:444/match_futbol3/tracks-v1a1/mono.m3u8
 https://tt.tas-ix.media:444/sportuz/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",MMA-TV.COM
 https://tt.tas-ix.media:444/mmatv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://95.47.156.60:8000/play/11/index.m3u8
 #EXTINF:-1 group-title="Прочие",РОССИЯ К
 http://95.47.156.60:8000/play/6/index.m3u8
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://95.47.156.60:8000/play/19/index.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+http://95.47.156.60:8000/play/4/index.m3u8
 #EXTINF:-1 group-title="Прочие",ПЯТЫЙ КАНАЛ
 http://95.47.156.60:8000/play/5/index.m3u8
 #EXTINF:-1 group-title="Прочие"tvg-id="art-tv" ,ART-ТВ
 http://95.47.156.60:8000/play/a011/index.m3u8
 #EXTINF:-1 group-title="Прочие",Архыз 24
 http://95.47.156.60:8000/play/a00w/index.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://95.47.156.60:8000/play/14/index.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+http://95.47.156.60:8000/play/17/index.m3u8
+#EXTINF:-1 group-title="Прочие",МИР
+http://95.47.156.60:8000/play/18/index.m3u8
 #EXTINF:-1 group-title="Прочие",ММТВ
 http://95.47.156.60:8000/play/a014/index.m3u8
 #EXTINF:-1 group-title="Прочие",ПРНК
@@ -985,18 +1013,36 @@ http://95.47.156.60:8000/play/a013/index.m3u8
 http://95.47.156.60:8000/play/16/index.m3u8
 #EXTINF:-1 group-title="Прочие",Резонанс ТВ
 http://95.47.156.60:8000/play/a015/index.m3u8
+#EXTINF:-1 group-title="Прочие",СТС
+http://95.47.156.60:8000/play/13/index.m3u8
 #EXTINF:-1 group-title="Прочие",Своё ТВ
 http://95.47.156.60:8000/play/21/index.m3u8
+#EXTINF:-1 group-title="Прочие",Спас
+http://95.47.156.60:8000/play/12/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТБВ
 http://95.47.156.60:8000/play/a012/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://95.47.156.60:8000/play/10/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://95.47.156.60:8000/play/15/index.m3u8
+#EXTINF:-1 group-title="Прочие",КАРУСЕЛЬ
+http://95.47.156.60:8000/play/8/index.m3u8
 #EXTINF:-1 group-title="Прочие",МузТВ
 http://95.47.156.60:8000/play/20/index.m3u8
+#EXTINF:-1 group-title="Прочие",МАТЧ ТВ
+http://95.47.156.60:8000/play/3/index.m3u8
 #EXTINF:-1 group-title="Прочие",Россия К
 http://185.46.16.239:8000/Rossiya_K
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://185.46.16.239:8000/Rossiya_24
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://185.46.16.239:8000/Rossiya_1
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://185.46.16.239:8000/TNT
+#EXTINF:-1 group-title="Прочие",НТВ
+http://185.46.16.239:8000/NTV
+#EXTINF:-1 group-title="Прочие",Рен ТВ
+http://185.46.16.239:8000/REN_TV
 #EXTINF:-1 group-title="Прочие",Моя планета HD
 http://185.46.16.239:8000/Planeta_HD
 #EXTINF:-1 group-title="Прочие",Доктор
@@ -1011,14 +1057,24 @@ http://185.46.16.239:8000/Istoriya
 http://185.46.16.239:8000/Pes_i_Ko
 #EXTINF:-1 group-title="Прочие",РЖД ТВ
 http://185.46.16.239:8000/Nat_Geo_Wild_HD
+#EXTINF:-1 group-title="Прочие",Звезда
+http://185.46.16.239:8000/Zvezda
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://185.46.16.239:8000/TV3
+#EXTINF:-1 group-title="Прочие",СТС
+http://185.46.16.239:8000/STS
 #EXTINF:-1 group-title="Прочие",ОТР
 http://185.46.16.239:8000/OTR
+#EXTINF:-1 group-title="Прочие",МИР
+http://185.46.16.239:8000/Mir
+#EXTINF:-1 group-title="Прочие",Домашний
+http://185.46.16.239:8000/Domashniy
 #EXTINF:-1 group-title="Прочие",Ю
 http://185.46.16.239:8000/YU_TV
 #EXTINF:-1 group-title="Прочие",Пятница
 http://185.46.16.239:8000/Pyatnitsa
+#EXTINF:-1 group-title="Прочие",Спас
+http://185.46.16.239:8000/Spas
 #EXTINF:-1 group-title="Прочие",Союз
 http://185.46.16.239:8000/Soyuz
 #EXTINF:-1 group-title="Прочие",Драйв
@@ -1033,6 +1089,8 @@ http://185.46.16.239:8000/Muz_TV
 http://185.46.16.239:8000/Shanson
 #EXTINF:-1 group-title="Прочие",ТНТ Music
 http://185.46.16.239:8000/Nashe_TV
+#EXTINF:-1 group-title="Прочие",КАРУСЕЛЬ
+http://185.46.16.239:8000/Karusel
 #EXTINF:-1 group-title="Прочие",Уникум
 http://185.46.16.239:8000/Detskiy
 #EXTINF:-1 group-title="Прочие",Мульт
@@ -1047,6 +1105,8 @@ http://185.46.16.239:8000/National_Geographic_HD
 http://185.46.16.239:8000/Disney_Channel
 #EXTINF:-1 group-title="Прочие",Ani
 http://185.46.16.239:8000/Ani
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://185.46.16.239:8000/Match_TV
 #EXTINF:-1 group-title="Прочие",Матч! Арена
 http://185.46.16.239:8000/Match_Arena
 #EXTINF:-1 group-title="Прочие",Матч! Страна
@@ -1085,6 +1145,16 @@ http://217.21.34.160:38007/tv-xxi/index.m3u8
 http://217.21.34.160:38007/detmir/index.m3u8
 #EXTINF:-1 group-title="Прочие",Первый HD
 http://46.8.46.14/1HD/index.m3u8
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://46.8.46.14/1/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://46.8.46.14/ros1/index.m3u8
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://46.8.46.14/tnt/index.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+http://46.8.46.14/ntv/index.m3u8
+#EXTINF:-1 group-title="Прочие",Рен ТВ
+http://46.8.46.14/rentv/index.m3u8
 #EXTINF:-1 group-title="Прочие",Investigation Discovery
 http://46.8.46.14/id/index.m3u8
 #EXTINF:-1 group-title="Прочие",Discovery Science
@@ -1157,14 +1227,22 @@ http://46.8.46.14/telecafe/index.m3u8
 http://46.8.46.14/Luxury/index.m3u8
 #EXTINF:-1 group-title="Прочие",5 Канал
 http://46.8.46.14/5ch/index.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://46.8.46.14/dom/index.m3u8
 #EXTINF:-1 group-title="Прочие",Че
 http://46.8.46.14/che/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://46.8.46.14/TVCenter/index.m3u8
+#EXTINF:-1 group-title="Прочие",Мир
+http://46.8.46.14/mir/index.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+http://46.8.46.14/zvezda/index.m3u8
 #EXTINF:-1 group-title="Прочие",Ю
 http://46.8.46.14/utv/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://46.8.46.14/tv3/index.m3u8
+#EXTINF:-1 group-title="Прочие",Спас
+http://46.8.46.14/spas/index.m3u8
 #EXTINF:-1 group-title="Прочие",Союз
 http://46.8.46.14/soyuz/index.m3u8
 #EXTINF:-1 group-title="Прочие",РБК
@@ -1179,6 +1257,8 @@ http://46.8.46.14/mama/index.m3u8
 http://46.8.46.14/Cartoon_Network/index.m3u8
 #EXTINF:-1 group-title="Прочие",2x2
 http://46.8.46.14/2x2/index.m3u8
+#EXTINF:-1 group-title="Прочие", Карусель
+http://46.8.46.14/Karusel/index.m3u8
 #EXTINF:-1 group-title="Прочие",Уникум
 http://46.8.46.14/detskiy/index.m3u8
 #EXTINF:-1 group-title="Прочие",Детский Мир
@@ -1211,18 +1291,20 @@ http://46.8.46.14/viasport/index.m3u8
 http://46.8.46.14/khl/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Арена
 http://46.8.46.14/arena/index.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://46.8.46.14/match/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Игра
 http://46.8.46.14/eurosport/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Боец
 http://46.8.46.14/boec/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч Премьер
 http://46.8.46.14/premier/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://87.246.54.249:8085/Rossia24/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://87.246.54.249:8085/RTR_Planeta/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://87.246.54.249:8085/THT4/index.m3u8
-#EXTINF:-1 group-title="Прочие",ТНТ HD
-http://87.246.54.249:8085/THT/index.m3u8
-#EXTINF:-1 group-title="Прочие",НТВ HD
-http://87.246.54.249:8085/HTB/index.m3u8
 #EXTINF:-1 group-title="Прочие",Техно 24
 http://87.246.54.249:8085/24Tehno/index.m3u8
 #EXTINF:-1 group-title="Прочие",Viasat Nature
@@ -1231,8 +1313,6 @@ http://87.246.54.249:8085/ViasatNature/index.m3u8
 http://87.246.54.249:8085/AnimalPlanet/index.m3u8
 #EXTINF:-1 group-title="Прочие",Авто плюс
 http://87.246.54.249:8085/AvtoPlus/index.m3u8
-#EXTINF:-1 group-title="Прочие",СТС HD
-http://87.246.54.249:8085/CTC/index.m3u8
 #EXTINF:-1 group-title="Прочие",Еспресо TV
 http://87.246.54.249:8085/espressotv/index.m3u8
 #EXTINF:-1 group-title="Прочие",Мир сериала
@@ -1249,6 +1329,8 @@ http://87.246.54.249:8085/THT_Music/index.m3u8
 http://87.246.54.249:8085/CTC_Kids/index.m3u8
 #EXTINF:-1 group-title="Прочие",Детский мир
 http://87.246.54.249:8085/DetskiMir/index.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+http://87.246.54.249:8085/Karusel/index.m3u8
 #EXTINF:-1 group-title="Прочие",Удар
 http://87.246.54.249:8085/UDAR/index.m3u8
 #EXTINF:-1 group-title="Прочие",KHL HD
@@ -1873,14 +1955,10 @@ https://vod.tv7.fi/tv7-ru/_definst_/smil:tv7-ru.smil/chunklist_w802965519_b94600
 https://streamer103.neterra.tv/thisisbulgaria/thisisbulgaria_HD.m3u8
 #EXTINF:-1 group-title="Прочие" ,Первый канал Евразия
 https://1tvkz-stream.daitsuna.net/1tvkz/1tvkz/1tvkz/1tvkz_720/chunks.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="http://epg.it999.ru/img/983.png",Первый канал HD
-https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Прочие" tvg-logo="http://epg.it999.ru/img/983.png",Первый канал (+4)
 http://edge4.1internet.tv/dash-live12/streams/1tv-orbit-plus-4/1tv-orbit-plus-4.mpd
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://cdn-static.ntv.ru/home/news/2023/20230511/kanal_io.jpg",Неизвестная Россия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0
-#EXTINF:-1 group-title="Прочие", Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Прочие", Россия 1 (+1)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Прочие", Россия 1 (+2)
@@ -1899,6 +1977,8 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Прочие", Россия 1 (+9)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="Прочие" ,Россия 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
 #EXTINF:-1 group-title="Прочие" ,Россия К
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 group-title="Прочие" ,Большая Азия
@@ -1949,6 +2029,8 @@ https://bsttv.bonus-tv.ru/cdn/kurai/playlist_sdhigh.m3u8
 http://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://bst.bratsk.ru/bst24_mainlogo_v1.png",БСТ 24
 https://bst.bratsk.ru/hls/bst2/sd/stream.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Прочие",Звезда Плюс
 http://tvchannelstream1.tvzvezda.ru/cdn/zvezdaplus/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://just-tv.lt/wp-content/themes/just/images/logo.png",Just TV
@@ -2103,6 +2185,8 @@ https://tvsamaragis.tk/new/new/tracks-v1a1/mono.m3u8
 http://193.25.8.59:8000/Paramount
 #EXTINF:-1 group-title="Прочие",Россия К
 http://193.25.8.59:8000/rossiak
+#EXTINF:-1 group-title="Прочие",Рен ТВ
+http://193.25.8.59:8000/ren
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://193.25.8.59:8000/tntcomedy
 #EXTINF:-1 group-title="Прочие",Galaxy
@@ -2137,8 +2221,12 @@ http://193.25.8.59:8000/amedia2
 http://193.25.8.59:8000/Avto24
 #EXTINF:-1 group-title="Прочие",Беларусь 24
 http://193.25.8.59:8000/belarus24
+#EXTINF:-1 group-title="Прочие",Домашний
+http://193.25.8.59:8000/dom
 #EXTINF:-1 group-title="Прочие",Драйв
 http://193.25.8.59:8000/drive
+#EXTINF:-1 group-title="Прочие",СТС
+http://193.25.8.59:8000/ESPN
 #EXTINF:-1 group-title="Прочие",Кинеко
 http://193.25.8.59:8000/fox
 #EXTINF:-1 group-title="Прочие",Hollywood
@@ -2147,6 +2235,8 @@ http://193.25.8.59:8000/interaz
 http://193.25.8.59:8000/mir24
 #EXTINF:-1 group-title="Прочие",Мир сериала
 http://193.25.8.59:8000/mirseriala
+#EXTINF:-1 group-title="Прочие",Мир
+http://193.25.8.59:8000/mir
 #EXTINF:-1 group-title="Прочие",Москва 24
 http://193.25.8.59:8000/moskva24
 #EXTINF:-1 group-title="Прочие",Мужской
@@ -2173,6 +2263,8 @@ http://193.25.8.59:8000/set
 http://193.25.8.59:8000/axn
 #EXTINF:-1 group-title="Прочие",Союз
 http://193.25.8.59:8000/soyuz
+#EXTINF:-1 group-title="Прочие",Спас
+http://193.25.8.59:8000/spas
 #EXTINF:-1 group-title="Прочие",Театр
 http://193.25.8.59:8000/teatr
 #EXTINF:-1 group-title="Прочие",Телекафе
@@ -2195,6 +2287,10 @@ http://193.25.8.59:8000/vremya
 http://193.25.8.59:8000/XXI
 #EXTINF:-1 group-title="Прочие",Зоопарк
 http://193.25.8.59:8000/zoo
+#EXTINF:-1 group-title="Прочие",Звезда
+http://193.25.8.59:8000/zvezda
+#EXTINF:-1 group-title="Прочие",Карусель
+http://193.25.8.59:8000/karusel
 #EXTINF:-1 group-title="Прочие",Бобёр
 http://193.25.8.59:8000/bober
 #EXTINF:-1 group-title="Прочие",Европа плюс ТВ
@@ -2447,12 +2543,24 @@ http://192.162.64.99:5000/play/a02f/index.m3u8
 http://192.162.64.99:5000/play/a02g/index.m3u8
 #EXTINF:-1 group-title="Прочие",Конный мир
 http://192.162.64.99:5000/play/a02i/index.m3u8
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://192.162.64.99:4000/play/a00e/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://192.162.64.99:4000/play/a00f/index.m3u8
 #EXTINF:-1 group-title="Прочие",Россия HD
 http://192.162.64.99:4000/play/a06n/index.m3u8
 #EXTINF:-1 group-title="Прочие",Россия К
 http://192.162.64.99:4000/play/a053/index.m3u8
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://192.162.64.99:4000/play/a00q/index.m3u8
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://192.162.64.99:4000/play/a01n/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://192.162.64.99:4000/play/a013/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://192.162.64.99:4000/play/a00y/index.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+http://192.162.64.99:4000/play/a011/index.m3u8
 #EXTINF:-1 group-title="Прочие",НТВ-мир
 http://192.162.64.99:4000/play/a06l/index.m3u8
 #EXTINF:-1 group-title="Прочие",Нано ТВ
@@ -2477,10 +2585,20 @@ http://192.162.64.99:4000/play/a00j/index.m3u8
 http://192.162.64.99:4000/play/a03t/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://192.162.64.99:4000/play/a00i/index.m3u8
+#EXTINF:-1 group-title="Прочие",Спас
+http://192.162.64.99:4000/play/a05c/index.m3u8
+#EXTINF:-1 group-title="Прочие",СТС
+http://192.162.64.99:4000/play/a00s/index.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://192.162.64.99:4000/play/a00v/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://192.162.64.99:4000/play/a051/index.m3u8
 #EXTINF:-1 group-title="Прочие",Пятница
 http://192.162.64.99:4000/play/a027/index.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+http://192.162.64.99:4000/play/a00o/index.m3u8
+#EXTINF:-1 group-title="Прочие",Мир
+http://192.162.64.99:4000/play/a05d/index.m3u8
 #EXTINF:-1 group-title="Прочие",Луганск 24
 http://192.162.64.99:4000/play/a00k/index.m3u8
 #EXTINF:-1 group-title="Прочие",РБК
@@ -2527,6 +2645,8 @@ http://192.162.64.99:4000/play/a062/index.m3u8
 http://192.162.64.99:4000/play/a061/index.m3u8
 #EXTINF:-1 group-title="Прочие",Точка ТВ
 http://192.162.64.99:4000/play/a06p/index.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://192.162.64.99:4000/play/a05i/index.m3u8
 #EXTINF:-1 group-title="Прочие",Беларусь 24
 http://192.162.64.99:4000/play/a00n/index.m3u8
 #EXTINF:-1 group-title="Прочие",БелРос
@@ -2547,6 +2667,8 @@ http://192.162.64.99:4000/play/a06s/index.m3u8
 http://192.162.64.99:4000/play/a028/index.m3u8
 #EXTINF:-1 group-title="Прочие",Мульт
 http://192.162.64.99:4000/play/a026/index.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+http://192.162.64.99:4000/play/a05b/index.m3u8
 #EXTINF:-1 group-title="Прочие",Детский мир
 http://192.162.64.99:4000/play/a06e/index.m3u8
 #EXTINF:-1 group-title="Прочие",Солнце
@@ -2583,16 +2705,36 @@ http://192.162.64.99:4000/play/a05t/index.m3u8
 http://192.162.64.99:4000/play/a05u/index.m3u8
 #EXTINF:-1 group-title="Прочие",Шансон ТВ
 http://192.162.64.99:4000/play/a067/index.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://192.162.64.99:4000/play/a01j/index.m3u8
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://5.188.221.43:8080/play/ort
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://5.188.221.43:8080/play/tnt
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://5.188.221.43:8080/play/rossiya_1
 #EXTINF:-1 group-title="Прочие",Россия К
 http://5.188.221.43:8080/play/rossia_k
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://5.188.221.43:8080/play/rossia_24
+#EXTINF:-1 group-title="Прочие",НТВ
+http://5.188.221.43:8080/play/ntv
+#EXTINF:-1 group-title="Прочие",Рен ТВ
+http://5.188.221.43:8080/play/ren-tv
 #EXTINF:-1 group-title="Прочие",Моя планета
 http://5.188.221.43:8080/play/moya_planeta
 #EXTINF:-1 group-title="Прочие",5 канал
 http://5.188.221.43:8080/play/5_kanal
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://5.188.221.43:8080/play/tv-centr
+#EXTINF:-1 group-title="Прочие",СТС
+http://5.188.221.43:8080/play/sts
+#EXTINF:-1 group-title="Прочие",Домашний
+http://5.188.221.43:8080/play/domashniy
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://5.188.221.43:8080/play/tv3
+#EXTINF:-1 group-title="Прочие",Звезда
+http://5.188.221.43:8080/play/zvezda
 #EXTINF:-1 group-title="Прочие",2x2
 http://5.188.221.43:8080/play/2x2
 #EXTINF:-1 group-title="Прочие",Пятница
@@ -2603,18 +2745,36 @@ http://5.188.221.43:8080/play/utv
 http://5.188.221.43:8080/play/otr
 #EXTINF:-1 group-title="Прочие",РБК
 http://5.188.221.43:8080/play/rbc_spb
+#EXTINF:-1 group-title="Прочие",Спас
+http://5.188.221.43:8080/play/spas
+#EXTINF:-1 group-title="Прочие",Мир
+http://5.188.221.43:8080/play/mir
 #EXTINF:-1 group-title="Прочие",Че
 http://5.188.221.43:8080/play/che
 #EXTINF:-1 group-title="Прочие",Солнце
 http://5.188.221.43:8080/play/disney
+#EXTINF:-1 group-title="Прочие",Карусель
+http://5.188.221.43:8080/play/karusel
 #EXTINF:-1 group-title="Прочие",МузТВ
 http://5.188.221.43:8080/play/muz_tv
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://5.188.221.43:8080/play/match
 #EXTINF:-1 group-title="Прочие",Первый HD
 http://91.194.191.241:8081/chid164/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://91.194.191.241:8081/chid1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Россия К
 http://91.194.191.241:8081/chid6/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие",Россия 1 HD
-http://91.194.191.241:8081/chid416/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://91.194.191.241:8081/chid10/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://91.194.191.241:8081/chid195/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+http://91.194.191.241:8081/chid4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://91.194.191.241:8081/chid9/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://91.194.191.241:8081/chid17/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://91.194.191.241:8081/chid36/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",ТНВ-Планета
@@ -2697,6 +2857,10 @@ http://91.194.191.241:8081/chid265/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid24/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",СТС Love
 http://91.194.191.241:8081/chid269/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",СТС
+http://91.194.191.241:8081/chid11/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Спас
+http://91.194.191.241:8081/chid7/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Союз
 http://91.194.191.241:8081/chid33/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Солнце
@@ -2743,6 +2907,8 @@ http://91.194.191.241:8081/chid145/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid48/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Мир Сериала
 http://91.194.191.241:8081/chid183/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Мир
+http://91.194.191.241:8081/chid16/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",МузСоюз
 http://91.194.191.241:8081/chid166/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",ЛДПР ТВ
@@ -2773,6 +2939,8 @@ http://91.194.191.241:8081/chid277/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid25/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Здоровое ТВ
 http://91.194.191.241:8081/chid267/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+http://91.194.191.241:8081/chid15/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Живи
 http://91.194.191.241:8081/chid275/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",ЕГЭ ТВ
@@ -2781,6 +2949,8 @@ http://91.194.191.241:8081/chid138/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid22/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Драйв
 http://91.194.191.241:8081/chid148/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://91.194.191.241:8081/chid296/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Домашние Животные
 http://91.194.191.241:8081/chid28/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Доктор
@@ -2873,6 +3043,8 @@ http://91.194.191.241:8081/chid34/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid61/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Детский Мир
 http://91.194.191.241:8081/chid58/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+http://91.194.191.241:8081/chid64/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Мама
 http://91.194.191.241:8081/chid31/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Мультимузыка
@@ -2937,6 +3109,8 @@ http://91.194.191.241:8081/chid53/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid143/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Арена
 http://91.194.191.241:8081/chid54/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://91.194.191.241:8081/chid18/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Матч Премьер
 http://91.194.191.241:8081/chid172/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Viasat Sport
@@ -2949,14 +3123,18 @@ http://91.194.191.241:8081/chid106/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid55/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие",Первый HD
 http://tv.ttk.mx:9093
-#EXTINF:-1 group-title="Прочие",Россия 1 HD
-http://tv.ttk.mx:9075
+#EXTINF:-1 group-title="Прочие",Первый Канал
+http://tv.ttk.mx:9000
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://tv.ttk.mx:9001
 #EXTINF:-1 group-title="Прочие",Россия К
 http://tv.ttk.mx:9005
-#EXTINF:-1 group-title="Прочие",ТНТ HD
-http://tv.ttk.mx:9128
-#EXTINF:-1 group-title="Прочие",НТВ HD
-http://tv.ttk.mx:9127
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://tv.ttk.mx:9006
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://tv.ttk.mx:9018
+#EXTINF:-1 group-title="Прочие",НТВ
+http://tv.ttk.mx:9003
 #EXTINF:-1 group-title="Прочие",НТВ Хит
 http://tv.ttk.mx:9173
 #EXTINF:-1 group-title="Прочие",ТНТ4
@@ -2995,6 +3173,8 @@ http://tv.ttk.mx:9056
 http://tv.ttk.mx:9008
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://tv.ttk.mx:9014
+#EXTINF:-1 group-title="Прочие",Звезда
+http://tv.ttk.mx:9016
 #EXTINF:-1 group-title="Прочие",Первый Крымский
 http://tv.ttk.mx:9020
 #EXTINF:-1 group-title="Прочие",Авто 24
@@ -3027,8 +3207,16 @@ http://tv.ttk.mx:9142
 http://tv.ttk.mx:9179
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://tv.ttk.mx:9009
+#EXTINF:-1 group-title="Прочие",Спас
+http://tv.ttk.mx:9011
+#EXTINF:-1 group-title="Прочие",СТС
+http://tv.ttk.mx:9012
+#EXTINF:-1 group-title="Прочие",Домашний
+http://tv.ttk.mx:9013
 #EXTINF:-1 group-title="Прочие",Пятница
 http://tv.ttk.mx:9015
+#EXTINF:-1 group-title="Прочие",Мир
+http://tv.ttk.mx:9017
 #EXTINF:-1 group-title="Прочие",Миллет
 http://tv.ttk.mx:9021
 #EXTINF:-1 group-title="Прочие",Крым 24 HD
@@ -3087,8 +3275,6 @@ http://tv.ttk.mx:9105
 http://tv.ttk.mx:9131
 #EXTINF:-1 group-title="Прочие",8 канал
 http://tv.ttk.mx:9134
-#EXTINF:-1 group-title="Прочие",Мир HD
-http://tv.ttk.mx:9140
 #EXTINF:-1 group-title="Прочие",Че
 http://tv.ttk.mx:9141
 #EXTINF:-1 group-title="Прочие",Телерадиокомпания 555 HD
@@ -3141,12 +3327,16 @@ http://tv.ttk.mx:9092
 http://tv.ttk.mx:9049
 #EXTINF:-1 group-title="Прочие",Супергерои
 http://tv.ttk.mx:9194
+#EXTINF:-1 group-title="Прочие",Карусель
+http://tv.ttk.mx:9007
 #EXTINF:-1 group-title="Прочие",Ностальгия
 http://tv.ttk.mx:9195
 #EXTINF:-1 group-title="Прочие",viju+ Sport
 http://tv.ttk.mx:9187
 #EXTINF:-1 group-title="Прочие",МАТЧ HD
 http://tv.ttk.mx:9094
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://tv.ttk.mx:9002
 #EXTINF:-1 group-title="Прочие",Матч! Арена
 http://tv.ttk.mx:9153
 #EXTINF:-1 group-title="Прочие",Матч! Страна
@@ -3207,6 +3397,10 @@ https://132544.edgevideo.ru/streams/132544_932351/1325441080/index.m3u8
 https://132544.edgevideo.ru/streams/132544_953555/132544720/index.m3u8
 #EXTINF:-1 group-title="Прочие" ,Mega Radio
 https://132544.edgevideo.ru/streams/132544_797405/1325441080/index.m3u8
+#EXTINF:-1 group-title="Прочие",Первый Канал
+http://195.26.83.96:7013/play/12/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://195.26.83.96:7013/play/13/index.m3u8
 #EXTINF:-1 group-title="Прочие",Тайны Галактики
 http://195.26.83.96:7007/play/a00j/index.m3u8
 #EXTINF:-1 group-title="Прочие",Viasat Nature
@@ -3257,16 +3451,24 @@ http://195.26.83.96:7029/play/9
 http://195.26.83.96:7007/play/4/index.m3u8
 #EXTINF:-1 group-title="Прочие",Viasat Sport
 http://195.26.83.96:7013/play/a00f/index.m3u8
-#EXTINF:-1 group-title="Прочие",Первый канал HD
-http://178.212.71.253:8000/play/62/index.m3u8
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://178.212.71.253:8000/play/1/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://178.212.71.253:8000/play/106/index.m3u8
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://178.212.71.253:8000/play/19/index.m3u8
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://178.212.71.253:8000/play/11/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+http://178.212.71.253:8000/play/2/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч!
 http://178.212.71.253:8000/play/3/index.m3u8
-#EXTINF:-1 group-title="Прочие",НТВ HD
-http://178.212.71.253:8000/play/33/index.m3u8
+#EXTINF:-1 group-title="Прочие",НТВ
+http://178.212.71.253:8000/play/4/index.m3u8
 #EXTINF:-1 group-title="Прочие",Россия К
 http://178.212.71.253:8000/play/6/index.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 24
+http://178.212.71.253:8000/play/7/index.m3u8
 #EXTINF:-1 group-title="Прочие",Точка РФ
 http://178.212.71.253:8000/play/61/index.m3u8
 #EXTINF:-1 group-title="Прочие",RTG TV
@@ -3293,10 +3495,20 @@ http://178.212.71.253:8000/play/5/index.m3u8
 http://178.212.71.253:8000/play/9/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВЦ
 http://178.212.71.253:8000/play/10/index.m3u8
+#EXTINF:-1 group-title="Прочие",Спас
+http://178.212.71.253:8000/play/12/index.m3u8
+#EXTINF:-1 group-title="Прочие",СТС
+http://178.212.71.253:8000/play/13/index.m3u8
+#EXTINF:-1 group-title="Прочие",Домашний
+http://178.212.71.253:8000/play/14/index.m3u8
 #EXTINF:-1 group-title="Прочие",ТВ3
 http://178.212.71.253:8000/play/15/index.m3u8
 #EXTINF:-1 group-title="Прочие",Пятница
 http://178.212.71.253:8000/play/16/index.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+http://178.212.71.253:8000/play/17/index.m3u8
+#EXTINF:-1 group-title="Прочие",Мир
+http://178.212.71.253:8000/play/18/index.m3u8
 #EXTINF:-1 group-title="Прочие",Первый Крымский
 http://178.212.71.253:8000/play/22/index.m3u8
 #EXTINF:-1 group-title="Прочие",Мир 24
@@ -3447,6 +3659,8 @@ http://178.212.71.253:8000/play/74/index.m3u8
 http://178.212.71.253:8000/play/52/index.m3u8
 #EXTINF:-1 group-title="Прочие",Радость Моя
 http://178.212.71.253:8000/play/46/index.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+http://178.212.71.253:8000/play/8/index.m3u8
 #EXTINF:-1 group-title="Прочие",Бобёр
 http://178.212.71.253:8000/play/77/index.m3u8
 #EXTINF:-1 group-title="Прочие",Мульт
@@ -3455,8 +3669,6 @@ http://178.212.71.253:8000/play/47/index.m3u8
 http://178.212.71.253:8000/play/116/index.m3u8
 #EXTINF:-1 group-title="Прочие",Eurosport 1
 http://178.212.71.253:8000/play/143/index.m3u8
-#EXTINF:-1 group-title="Прочие",Матч ТВ HD
-http://178.212.71.253:8000/play/34/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Страна
 http://178.212.71.253:8000/play/51/index.m3u8
 #EXTINF:-1 group-title="Прочие",Матч! Арена
@@ -3521,16 +3733,14 @@ http://api.peers.tv/timeshift/1kanal/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIs
 http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Россия-1 +4
 http://api.peers.tv/timeshift/rossija/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Россия 24
+http://api.peers.tv/timeshift/vesti/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Россия К
 http://api.peers.tv/timeshift/kultura/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,НТВ HD
-http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,НТВ (+4)
 http://api.peers.tv/timeshift/ntv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,ТНТ HD
-http://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,РЕН ТВ HD
-http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,ТНТ
+http://api.peers.tv/timeshift/tnt/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Рен ТВ +4
 http://api.peers.tv/timeshift/rentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,ТНТ4
@@ -3645,6 +3855,8 @@ http://api.peers.tv/timeshift/kitchentv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1N
 http://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Лен ТВ 24
 http://api.peers.tv/timeshift/len_tv24/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Мир
+http://api.peers.tv/timeshift/mir/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Мир 24
 http://api.peers.tv/timeshift/mir24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Москва-24
@@ -3675,6 +3887,8 @@ http://api.peers.tv/timeshift/nostalgy/16/playlist.m3u8?token=eyJhbGciOiJIUzI1Ni
 http://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Поехали!
 http://api.peers.tv/timeshift/poehali/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Домашний
+http://api.peers.tv/timeshift/domashny/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Авто 24
 http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Авто плюс
@@ -3693,6 +3907,8 @@ http://api.peers.tv/timeshift/evpatorija/126/playlist.m3u8?token=eyJhbGciOiJIUzI
 http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Живи
 http://api.peers.tv/timeshift/jv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Звезда
+http://api.peers.tv/timeshift/zvezda/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Известия HD
 http://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Первый вегетарианский
@@ -3727,6 +3943,10 @@ http://api.peers.tv/timeshift/sarafan/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiI
 http://api.peers.tv/timeshift/sibir_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Союз
 http://api.peers.tv/timeshift/soyuz/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,СПАС
+http://api.peers.tv/timeshift/spas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,СТС
+http://api.peers.tv/timeshift/sts/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,СТС love
 http://api.peers.tv/timeshift/sts_love/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,ТВЦ +4
@@ -3785,6 +4005,8 @@ http://api.peers.tv/timeshift/radost_moj/16/playlist.m3u8?token=eyJhbGciOiJIUzI1
 http://api.peers.tv/timeshift/mult/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Мама
 http://api.peers.tv/timeshift/motherchi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Карусель
+http://api.peers.tv/timeshift/karusel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Супергерои
 http://api.peers.tv/timeshift/supergeroi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Смайлик ТВ
@@ -3835,12 +4057,18 @@ http://api.peers.tv/timeshift/mir_basketbola/126/playlist.m3u8?token=eyJhbGciOiJ
 http://api.peers.tv/timeshift/start/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Прочие" ,Русский Экстрим
 http://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjA5NDMzMDcsImlhdCI6MTc2MDg1NjkwNywiY2lkIjo2LCJ1aWQiOjk1NTc5Mzc1NSwicmVnIjpmYWxzZSwiaXAiOjMxMTgzMDk5MDQsImFkdWx0IjpmYWxzZX0.cQg-XG3KtWMkkS-go3TaVO9LEVYGNdHoLJcL9iZVlvU&offset=10
-#EXTINF:-1 group-title="Прочие",Первый канал HD
-http://95.181.17.26/dvr01/hd1/1kanal_hd/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://arbiter.bolshoe.tv/?path=streaming/1kanal/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Россия К
 http://arbiter.bolshoe.tv/?path=abr1/kultura/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",ТНТ4
 http://95.181.17.14/dvr02/mobile2/comedytv/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",ТНТ
+http://95.181.17.26/dvr02/sd2/tnt/chunks.m3u8?&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",НТВ
+http://arbiter.bolshoe.tv/?path=streaming/ntv/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://arbiter.bolshoe.tv/?path=streaming/rentv/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Travel+Adventure HD
 http://95.181.17.14/dvr02/mobile2/TravAdHD/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Viasat Explore
@@ -3927,8 +4155,14 @@ http://arbiter.bolshoe.tv/?path=mobile6/zdorovtv/71/tvrec/playlist.m3u8&wmsAuthS
 http://arbiter.bolshoe.tv/?path=abr1/2x2tv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Авто плюс
 http://arbiter.bolshoe.tv/?path=abr1/auto_plus/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Мир
+http://arbiter.bolshoe.tv/?path=abr1/mir/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Мир 24
 http://arbiter.bolshoe.tv/?path=abr3/mir24hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Спас
+http://arbiter.bolshoe.tv/?path=abr1/spas/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",СТС
+http://arbiter.bolshoe.tv/?path=abr1/sts/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",СТС Love
 http://arbiter.bolshoe.tv/?path=abr1/sts_love/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Тонус ТВ
@@ -3965,14 +4199,20 @@ http://arbiter.bolshoe.tv/?path=abr3/fashion/71/copy/playlist.m3u8&wmsAuthSign=c
 http://arbiter.bolshoe.tv/?path=abr3/kaleydoskop/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Вместе-РФ
 http://95.181.17.26/streaming/rzd/71/mobile2/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Пятница!
+http://arbiter.bolshoe.tv/?path=streaming/friday/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",5 канал
 http://arbiter.bolshoe.tv/?path=streaming/5kanal/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Домашний
+http://arbiter.bolshoe.tv/?path=streaming/domashny/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Живи
 http://arbiter.bolshoe.tv/?path=streaming/jv/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",ОТР
 http://arbiter.bolshoe.tv/?path=streaming/otr/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Сарафан
 http://arbiter.bolshoe.tv/?path=streaming/sarafan/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",СТС
+http://arbiter.bolshoe.tv/?path=streaming/sts/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Телекафе
 http://arbiter.bolshoe.tv/?path=streaming/telekafe/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Усадьба
@@ -4013,6 +4253,8 @@ http://arbiter.bolshoe.tv/?path=abr1/bober/71/copy/playlist.m3u8&wmsAuthSign=c2V
 http://arbiter.bolshoe.tv/?path=abr2/tlum_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Мульт
 http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Карусель
+http://arbiter.bolshoe.tv/?path=abr1/karusel/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Мультиландия
 http://arbiter.bolshoe.tv/?path=abr1/multimaniaHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Мультимузыка
@@ -4025,8 +4267,8 @@ http://arbiter.bolshoe.tv/?path=abr1/detckiyHD/71/copy/playlist.m3u8&wmsAuthSign
 http://arbiter.bolshoe.tv/?path=streaming/forkids/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Радость моя
 http://arbiter.bolshoe.tv/?path=streaming/radostmoya/71/tvrec/chunks.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
-#EXTINF:-1 group-title="Прочие",Матч ТВ HD
-http://arbiter.bolshoe.tv/?path=abr2/match_tv_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
+#EXTINF:-1 group-title="Прочие",Матч ТВ
+http://95.181.17.26/dvr02/sd2/sport/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Матч! Футбол 1 HD
 http://95.181.17.6/7nvenc/NTVplusfut1HD/71/fhd/chunks.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Матч! Футбол 2 HD
@@ -4057,12 +4299,6 @@ http://arbiter.bolshoe.tv/?path=abr1/futbol/71/copy/playlist.m3u8&wmsAuthSign=c2
 http://arbiter.bolshoe.tv/?path=abr2/viasat_sport_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAyNSA2OjU1OjA5IEFNJmhhc2hfdmFsdWU9M3lXUGdnZXJQbDAzYUlMcXhDaUZ3Zz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Прочие",Rutube TV
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=Mqx9ausyndnoAxiWRLsthg&e=1760943086&scheme=https
-#EXTINF:-1 group-title="Прочие",Первый канал HD
-https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=kD9i-U-pBfW_tf--VRN-fA&e=1760943086&scheme=https
-#EXTINF:-1 group-title="Прочие",НТВ HD
-https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=m4PgIiMzo4gSTh3ZEXB2MA&e=1760943087&scheme=https
-#EXTINF:-1 group-title="Прочие",ТНТ HD
-https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=jd9ohVmXaLGgrf7hxhmRzg&e=1760943087&scheme=https
 #EXTINF:-1 group-title="Прочие",ТНТ4 HD
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=jCphW68m5Vpjo9GemtmeJA&e=1760943088&scheme=https
 #EXTINF:-1 group-title="Прочие",Пятница HD
@@ -4103,6 +4339,8 @@ https://bl.rutube.ru/livestream/f79ff24ad16cf5f5eb52994647596d13/index.m3u8?s=CM
 https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=tw9DabUXBWRgrEPZ9pgA5g&e=1760943098&scheme=https
 #EXTINF:-1 group-title="Прочие",РБК
 https://bl.rutube.ru/livestream/75957f55ed1e9b4e0ec00f8dd9594fcc/index.m3u8?s=7eET-N1P3Y7d9tXnJwNhlA&e=1760943098&scheme=https
+#EXTINF:-1 group-title="Прочие",Звезда
+https://bl.rutube.ru/livestream/5ab908fccfac5bb43ef2b1e4182256b0/index.m3u8?s=EVKlSOM9HuYev5ifZNm1Pg&e=1760943099&scheme=https
 #EXTINF:-1 group-title="Прочие",Волга
 https://bl.rutube.ru/livestream/bed2dcda74004e4e9a61966d2848c027/index.m3u8?s=5nzx78aEjpC8qxKYlXLTGA&e=1760943099&scheme=https
 #EXTINF:-1 group-title="Прочие",Волга 24
@@ -4137,6 +4375,8 @@ https://bl.rutube.ru/livestream/3053eeaecc60e0adef57b81d3498fdd0/index.m3u8?s=-h
 https://bl.rutube.ru/livestream/43269ba8fb179e298b1e497f557e8d2d/index.m3u8?s=Bt9eL-9gqGTTdCtKIxkT-w&e=1760943106&scheme=https
 #EXTINF:-1 group-title="Прочие",Липецкое время
 https://bl.rutube.ru/livestream/23afd7debed1cfc7a8efa0827c24d836/index.m3u8?s=rOGxTMRMNRwqVwTxvaf4cA&e=1760943106&scheme=https
+#EXTINF:-1 group-title="Прочие",Мир
+https://bl.rutube.ru/livestream/afef67d151b5a607dee1ef0aa299a52c/index.m3u8?s=mhMKitYGfCG8iTygSu8QVA&e=1760943107&scheme=https
 #EXTINF:-1 group-title="Прочие",Рифей-ТВ
 https://bl.rutube.ru/livestream/57486bf8e1c01d16a5a939c463867fab/index.m3u8?s=MkSjoA0-L1e1fbwF8zRymw&e=1760943107&scheme=https
 #EXTINF:-1 group-title="Прочие",КРИК-ТВ
@@ -4201,6 +4441,8 @@ https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?s=Ll
 https://bl.rutube.ru/livestream/b6257f020bd1a156e47e0e3fb607f287/index.m3u8?s=q3XSLXjwfBMT7IQiEj5suA&e=1760943123&scheme=https
 #EXTINF:-1 group-title="Прочие",RT Doc
 https://bl.rutube.ru/livestream/d1eb5756f77825451cc9d129bf5607b0/index.m3u8?s=fhWr5pZLnrgGlW7We1XpBw&e=1760943124&scheme=https
+#EXTINF:-1 group-title="Прочие",Спас
+https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=bbTIoZ8ACDOaNXWZ4qTJVw&e=1760943124&scheme=https
 #EXTINF:-1 group-title="Прочие",Резонанс ТВ
 https://bl.rutube.ru/livestream/e2d1a304d55b9a807ec5df1837859304/index.m3u8?s=jyMx7Cv4SqD2P5zYv4yUdQ&e=1760943125&scheme=https
 #EXTINF:-1 group-title="Прочие",TV Губерния
@@ -4245,8 +4487,6 @@ https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=SK
 https://bl.rutube.ru/livestream/26aeb9043f519687846255556ee891aa/index.m3u8?s=xbx3JHIzjDodYgnZu3cKOg&e=1760943134&scheme=https
 #EXTINF:-1 group-title="Прочие",VIVA Russia HD
 https://bl.rutube.ru/livestream/f712ae5ff3db23ec09b3674133d44daa/index.m3u8?s=_iKT_IdFVdfsEciTK_V_Uw&e=1760943135&scheme=https
-#EXTINF:-1 group-title="Прочие",Матч ТВ HD
-https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=7vvpicz3aaIPon74Df3bsA&e=1760943135&scheme=https
 #EXTINF:-1 group-title="Прочие",beIN SPORTS XTRA Español
 https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=2L_kClVE3a3_KN2ljuKXsw&e=1760943136&scheme=https
 #EXTINF:-1 group-title="Прочие",Billiard TV
@@ -4365,20 +4605,18 @@ https://iptv.itv.uz/hls/live/t/rJFNS6WYSzgWGD65QA3HSQ/e/1760943159/1475/index.m3
 https://iptv.itv.uz/hls/live/t/pod2XzCrqfFlf5aFeze_1A/e/1760943159/1497/index.m3u8?ip=185.221.162.16
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://files.itv.uz/uploads/iptv/channels/2025/03/25//2930662a99d6931a690adbfe650f5e49-q-500x500.jpeg", Denov TV
 https://iptv.itv.uz/hls/live/t/nsYE3nErH9iS3xLCuEZ7wg/e/1760943159/1499/index.m3u8?ip=185.221.162.16
-#EXTINF:-1 group-title="Прочие",Россия РТР
+#EXTINF:-1 group-title="Прочие",Первый канал
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 #EXTINF:-1 group-title="Прочие",Первый HD
 https://livetv.mylifeisgood.net.ru/channels/perviytest.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 1
+https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
 #EXTINF:-1 group-title="Прочие",Россия К
 https://livetv.mylifeisgood.net.ru/channels/russiak.m3u8
+#EXTINF:-1 group-title="Прочие",Россия 24
+https://livetv.mylifeisgood.net.ru/channels/russia24.m3u8
 #EXTINF:-1 group-title="Прочие",Москва 24
 https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
-#EXTINF:-1 group-title="Прочие",НТВ HD
-https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
-#EXTINF:-1 group-title="Прочие",РЕН ТВ HD
-https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
-#EXTINF:-1 group-title="Прочие",ТНТ HD
-https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
 #EXTINF:-1 group-title="Прочие",ТНТ4 HD
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 #EXTINF:-1 group-title="Прочие",НТВ Хит
@@ -4435,22 +4673,20 @@ https://livetv.mylifeisgood.net.ru/channels/nashasibirhd.m3u8
 https://livetv.mylifeisgood.net.ru/channels/nashasibir4k.m3u8
 #EXTINF:-1 group-title="Прочие",ОТР
 https://livetv.mylifeisgood.net.ru/channels/otr24.m3u8
-#EXTINF:-1 group-title="Прочие",МИР HD
-https://livetv.mylifeisgood.net.ru/channels/mirhdorig.m3u8
 #EXTINF:-1 group-title="Прочие",Пятый канал
 https://livetv.mylifeisgood.net.ru/channels/5tv.m3u8
 #EXTINF:-1 group-title="Прочие",ТВЦ
 https://livetv.mylifeisgood.net.ru/channels/tvc24.m3u8
-#EXTINF:-1 group-title="Прочие",СТС HD
-https://livetv.mylifeisgood.net.ru/channels/sts.m3u8
+#EXTINF:-1 group-title="Прочие",СПАС
+https://livetv.mylifeisgood.net.ru/channels/spas.m3u8
 #EXTINF:-1 group-title="Прочие",СТС Love
 https://livetv.mylifeisgood.net.ru/channels/stslove.m3u8
-#EXTINF:-1 group-title="Прочие",Домашний HD
-https://livetv.mylifeisgood.net.ru/channels/domashnii
 #EXTINF:-1 group-title="Прочие",ТВ3 HD
 https://livetv.mylifeisgood.net.ru/channels/tv3.m3u8
 #EXTINF:-1 group-title="Прочие",Пятница HD
 https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
+#EXTINF:-1 group-title="Прочие",Звезда
+https://livetv.mylifeisgood.net.ru/channels/zvezda.m3u8
 #EXTINF:-1 group-title="Прочие",Кинеко
 https://livetv.mylifeisgood.net.ru/channels/kineko.m3u8
 #EXTINF:-1 group-title="Прочие",Сапфир
@@ -4541,6 +4777,8 @@ https://livetv.mylifeisgood.net.ru/channels/gulli.m3u8
 https://livetv.mylifeisgood.net.ru/channels/tiji.m3u8
 #EXTINF:-1 group-title="Прочие",Рыжий
 https://livetv.mylifeisgood.net.ru/channels/ryjii.m3u8
+#EXTINF:-1 group-title="Прочие",Карусель
+https://livetv.mylifeisgood.net.ru/channels/karuselvgtrk.m3u8
 #EXTINF:-1 group-title="Прочие"  tvg-logo="https://i.postimg.cc/SNzCzTBf/5c203420845831-562f213b2e6f7.png",Камин ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.130.1 (AndroidTV/9) HlsWinkPlayer
 #EXTINF:-1 group-title="Прочие" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Первый канал (+1)
@@ -4647,16 +4885,16 @@ https://7pal.short.gy/skspmaine
 https://7pal.short.gy/ssportsnw
 #EXTINF:-1 group-title="Прочие", Sky Sports Premier League
 https://7pal.short.gy/ssportspl
+#EXTINF:-1 group-title="Прочие",Первый канал
+http://127.0.0.1:6878/ace/getstream?id=50bc2f512793f1e745fb5bd5b5a6afca199c2d19
 #EXTINF:-1 group-title="Прочие",Первый канал Евразия
 http://127.0.0.1:6878/ace/getstream?id=8599818264dd7fdc068ac0a9fac8447fd52ad270
-#EXTINF:-1 group-title="Прочие",Россия 1 HD
-http://127.0.0.1:6878/ace/getstream?id=9644f162efbefc1b38601eeaeeed25591fd2832e
 #EXTINF:-1 group-title="Прочие",Россия РТР
 http://127.0.0.1:6878/ace/getstream?id=8410d13737ac090732898be21e6dd55dabb031fe
 #EXTINF:-1 group-title="Прочие",ТНТ4 HD
 http://127.0.0.1:6878/ace/getstream?id=da27959a3e9ee97647df5aadd056021099e2d845
-#EXTINF:-1 group-title="Прочие",ТНТ HD
-http://127.0.0.1:6878/ace/getstream?id=caa3dad746d80a887e8a259f1c7c2eead749094b
+#EXTINF:-1 group-title="Прочие",РЕН ТВ
+http://127.0.0.1:6878/ace/getstream?id=5d2b34377ff010af21f777600c6be77d4479f2eb
 #EXTINF:-1 group-title="Прочие",Рен ТВ International
 http://127.0.0.1:6878/ace/getstream?infohash=881ffab7e64f437d16d2ca4474c291a4a1111bd2
 #EXTINF:-1 group-title="Прочие",НТВ ХИТ
@@ -4755,8 +4993,6 @@ http://127.0.0.1:6878/ace/getstream?id=14002498165f0a7aaaea284ebb9965f078eb0f69
 http://127.0.0.1:6878/ace/getstream?id=d586953ebbdb28493eecd8d8e8527557a231201d
 #EXTINF:-1 group-title="Прочие",СТС Kids HD
 http://127.0.0.1:6878/ace/getstream?id=c0d8e40d726705eaa3c8e714e38babffd2dd18cb
-#EXTINF:-1 group-title="Прочие",СТС HD
-http://127.0.0.1:6878/ace/getstream?id=5e06a45d6939341fb7427189245380086c1d63c7
 #EXTINF:-1 group-title="Прочие",Страшное HD
 http://127.0.0.1:6878/ace/getstream?id=d47c7365f67b9b8169404e1c4d86fd698307fa15
 #EXTINF:-1 group-title="Прочие",Совершенно Секретно
@@ -4817,8 +5053,6 @@ http://127.0.0.1:6878/ace/getstream?id=82cc7621069b4095f002b43a669b40c2b5342afc
 http://127.0.0.1:6878/ace/getstream?id=2893ea38cf923c7efcfaf3eead798dd73b2cf2d0
 #EXTINF:-1 group-title="Прочие",Дорама HD
 http://127.0.0.1:6878/ace/getstream?id=67cf1b59347125a57a5ea62844a6b77075a3d9dd
-#EXTINF:-1 group-title="Прочие",Домашний HD
-http://127.0.0.1:6878/ace/getstream?id=66e2f44bd0a7687a61f5cc4f03bcfc20a505057c
 #EXTINF:-1 group-title="Прочие",Доктор
 http://127.0.0.1:6878/ace/getstream?id=327cc1410c2e7af8fca0925f7a003ffdba6cdb2a
 #EXTINF:-1 group-title="Прочие",Дождь
@@ -4975,6 +5209,8 @@ http://127.0.0.1:6878/ace/getstream?id=0ef17cf868ef54b443dd41516803276779b76aac
 http://127.0.0.1:6878/ace/getstream?id=5cb13f2670c56d4e5d507c2f963136adad34aa19
 #EXTINF:-1 group-title="Прочие",Мультиландия
 http://127.0.0.1:6878/ace/getstream?id=78f1672c711f67c5588ecc96580f7524c0fb87fb
+#EXTINF:-1 group-title="Прочие",Карусель
+http://127.0.0.1:6878/ace/getstream?id=c008e67929d47855b43f7a9af7305a6c32504132
 #EXTINF:-1 group-title="Прочие",СуперГерои
 http://127.0.0.1:6878/ace/getstream?id=42f4491e03e5730330457e7c49c55362bf2cbc7e
 #EXTINF:-1 group-title="Прочие",Cartoon Network
@@ -5045,8 +5281,6 @@ http://127.0.0.1:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9
 http://127.0.0.1:6878/ace/getstream?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04
 #EXTINF:-1 group-title="Прочие",Матч! Футбол 3 HD
 http://127.0.0.1:6878/ace/getstream?id=b6baa046075d82da300fc1b16de96067a8b9540e
-#EXTINF:-1 group-title="Прочие",Матч ТВ HD
-http://127.0.0.1:6878/ace/getstream?id=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2
 #EXTINF:-1 group-title="Прочие",Матч! Страна
 http://127.0.0.1:6878/ace/getstream?id=ef9c77bd94783448b8edb552109f5f15b2bd82d1
 #EXTINF:-1 group-title="Прочие",Матч! Премьер HD
