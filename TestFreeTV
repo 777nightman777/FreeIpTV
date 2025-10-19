@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz"
-#EXTINF:-1 group-title="Эфирные", EURONEWS
-https://flussonic.salomtv.uz/EURONEWS/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Y0RQhHTV/1tv.png" group-title="Эфирные", Первый канал
 https://flussonic.salomtv.uz/perviy_kanal/video.m3u8
 #EXTINF:-1 group-title="Эфирные", Звезда
@@ -117,30 +115,6 @@ http://87.246.54.249:8085/Rossia24/index.m3u8
 http://87.246.54.249:8085/RTR_Planeta/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/B6W1W0PQ/ntv.png" group-title="Эфирные",НТВ HD
 http://87.246.54.249:8085/HTB/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.2.45/${start}-${end}/index.m3u8" group-title="Эфирные" , UA:Перший
-https://ext.cdn.nashnet.tv/228.0.2.45/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.4.26/${start}-${end}/index.m3u8" group-title="Эфирные" , 5 Канал HD
-https://ext.cdn.nashnet.tv/228.0.4.26/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.0.138/${start}-${end}/index.m3u8" group-title="Эфирные" , 8 Канал UA HD
-https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.0.33/${start}-${end}/index.m3u8" group-title="Эфирные" , 24 Канал UA
-https://ext.cdn.nashnet.tv/228.0.0.33/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.1.60/${start}-${end}/index.m3u8" group-title="Эфирные" , ЕКО–ТВ UA
-https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
-#EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.2.30/${start}-${end}/index.m3u8" group-title="Эфирные" , КАРАВАН-ТВ UA
-https://ext.cdn.nashnet.tv/228.0.2.30/index.m3u8
-#EXTINF:-1 group-title="Эфирные" tvg-logo="http://ottpink.network/picons/1plus1hd.png",1+1 Марафон UA
-https://m3u8.ott.blue/watch/45/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Эфирные" tvg-logo="https://static.sweet.tv/images/icons/channels/v2/187-11-kanal-dnepr.png",11 Канал Дніпро HD
-https://m3u8.ott.blue/watch/7419/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Эфирные" tvg-logo="http://epg.it999.ru/img/2079.png",5 канал UA
-https://m3u8.ott.blue/watch/7/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Эфирные",FREEДОМ - UATV Channel
-https://m3u8.ott.blue/watch/7431/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Эфирные" tvg-id="espreso-tv",Эспресо ТВ HD UA
-https://m3u8.ott.blue/watch/10/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Эфирные" tvg-logo="http://www.1muz.com/images/LOGORUS.png",Первый музыкальный
-http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 group-title="Эфирные" tvg-logo="https://www.coolstreaming.us/img/ch/image70939143654.jpg",RADIO STUDIO ONE VISUAL TV
 https://cp1.server89.com:19360/radiostudioonelive/radiostudioonelive.m3u8
 #EXTINF:-1 group-title="Эфирные",Первый информационный HD
@@ -1899,38 +1873,6 @@ https://ext.cdn.nashnet.tv/228.0.2.214/index.m3u8
 https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
 #EXTINF:-1 catchup="default" catchup-days="6" catchup-source="https://ext.cdn.nashnet.tv/228.0.3.231/${start}-${end}/index.m3u8" group-title="Прочие" , Ісландія HD
 https://ext.cdn.nashnet.tv/228.0.3.231/index.m3u8
-#EXTINF:-1 group-title="Прочие",D1
-https://m3u8.ott.blue/watch/7494/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие" tvg-logo="http://ottpink.network/picons/tva_chernivtsi_ua.png",TVA Чернівці
-https://m3u8.ott.blue/watch/117/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие",Аверс
-https://m3u8.ott.blue/watch/356/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие" tvg-id="armia-tv-ua",Армія ТВ HD
-https://m3u8.ott.blue/watch/7572/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие",Белсат HD
-https://m3u8.ott.blue/watch/149/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие",Дождь HD
-https://m3u8.ott.blue/watch/7319/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие",Настоящее время HD
-https://m3u8.ott.blue/watch/207/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие" tvg-logo="http://epg.it999.ru/img/2118.png",Рада
-https://m3u8.ott.blue/watch/7418/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие",УНІАН
-https://m3u8.ott.blue/watch/236/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие", Чорноморська ТРК
-https://m3u8.ott.blue/watch/7735/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие" tvg-id="my-ukraina", Ми-Україна HD
-https://m3u8.ott.blue/watch/7655/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие", Суспільне Новини HD
-https://m3u8.ott.blue/watch/7719/index.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg",Доктор Достоевский
-https://fl1001.bozztv.com/ushba3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Star Media
-https://fl1001.bozztv.com/ushba4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Украина
-https://fl1001.bozztv.com/ushba5/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Военный
-https://fl1001.bozztv.com/ushba16/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Ералаш
 https://fl1001.bozztv.com/ushba8/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Приколы 1
@@ -2007,8 +1949,6 @@ https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 http://185.57.68.33/232/index.m3u8
 #EXTINF:-1 group-title="Прочие",Stingray Naturescape
 https://stream.ads.ottera.tv/cl/240211cn4j7g65sur7fq378vpg/1920x1080_5711200_3_f.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://tgtv.ua/images/tgtv_logo.png",Travel Guide TV
-http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00307.jpg",Relaxon
 http://iptv.prosto.tv:7000/ch317/video.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00310.png",Камин
@@ -2141,8 +2081,6 @@ http://thksmom.shop/zp1247/index.m3u8
 http://thksmom.shop/bbso1vod24/7/index.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-id="city-tv-bg",City TV
 https://tv.city.bg/play/tshls/citytv/2.m3u8
-#EXTINF:-1 group-title="Прочие" tvg-logo="https://sat.kharkiv.ua/images/Strani/evropa/north%20macedonia/sky%20folk%20tv.jpg",SKY Folk TV
-http://eu.live.skyfolk.mk/live.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://www.radio-banovina.hr/wp-content/uploads/2015/01/logo-120_00000.png",Banovina TV
 http://video.radio-banovina.hr:1935/live/myStream/chunklist_w1164976177.m3u8
 #EXTINF:-1 group-title="Прочие" tvg-logo="https://i.postimg.cc/JzrfFnQw/2024-02-24-182647787.png",OF-TV
