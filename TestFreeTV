@@ -2,12 +2,12 @@
 #EXTINF:-1 tvg-id="pervy" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Первый канал
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
-#EXTINF:-1 group-title="Rutube (VPN)",Первый канал HD
+#EXTINF:-1 tvg-id="pervy" group-title="Эфирные",Первый канал HD
 https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=NdH7UzH762kUhGjfd2PBSQ&e=1762977594&scheme=https
 #EXTINF:-1 tvg-id="rossia1" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Россия 1 HD
+#EXTINF:-1 tvg-id="rossia1" group-title="Эфирные", Россия 1 HD
 http://127.0.0.1:6878/ace/getstream?id=9644f162efbefc1b38601eeaeeed25591fd2832e
 #EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://epg.iptvx.one/picons/rtr-planeta.png" group-title="Эфирные", РТР-Планета Европа
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
@@ -25,7 +25,7 @@ http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTINF:-1 tvg-id="ntv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
-#EXTINF:-1 group-title="CloudFlare Inc (VPN 🇷🇺)",НТВ HD
+#EXTINF:-1 tvg-id="ntv" group-title="Эфирные",НТВ HD
 https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Эфирные", НТВ Право
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -33,17 +33,17 @@ http://cdn2.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Эфирные", НТВ Хит
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img2/2041.png" group-title="RUZIEV+ IPTV| I LOOK КИНО",  НТВ Хит HD
+#EXTINF:-1 tvg-id="ntv-xit" group-title="Эфирные", НТВ Хит HD
 http://zxfjaukj.akciatv.ru/iptv/FHH84H2DHD9F4MDXE49XPW4U/16062/index.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Эфирные", НТВ Сериал
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 group-title="RUZIEV+ IPTV| EVGENIY TV",  НТВ Сериал HD
+#EXTINF:-1 tvg-id="ntv-serial" group-title="Эфирные", НТВ Сериал HD
 https://livetv.mylifeisgood.net.ru/channels/ntvserial_hd.m3u8
 #EXTINF:-1 tvg-id="ntv-style" group-title="Эфирные", НТВ Стиль
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://cdn.ntv.ru/th_style/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img2/1755.png" group-title="RUZIEV+ IPTV| I LOOK РАЗВЛЕКАТЕЛЬНЫЕ",   НТВ Стиль HD
+#EXTINF:-1 tvg-id="ntv-style" group-title="Эфирные", НТВ Стиль HD
 http://zxfjaukj.akciatv.ru/iptv/FHH84H2DHD9F4MDXE49XPW4U/20037/index.m3u8
 #EXTINF:-1 tvg-id="ntv-mir" group-title="Эфирные", НТВ-Мир
 https://streaming.skynetconnect.online/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
@@ -54,7 +54,7 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",РЕН ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-#EXTINF:-1 group-title="ОСС (VPN)",Рен ТВ HD
+#EXTINF:-1 tvg-id="rentv" group-title="Эфирные",Рен ТВ HD
 http://178.217.72.72/REN_TV/index.m3u8
 #EXTINF:-1 tvg-id="rentv-int" group-title="Эфирные", Рен ТВ International
 http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
@@ -74,7 +74,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="domashny" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Домашний
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Домашний HD
+#EXTINF:-1 tvg-id="domashny" group-title="Эфирные",Домашний HD
 http://127.0.0.1:6878/ace/getstream?id=66e2f44bd0a7687a61f5cc4f03bcfc20a505057c
 #EXTINF:-1 tvg-id="kultura" catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия К
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -86,7 +86,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
 http://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-id="zvezda-plus" group-title="Эфирные", Звезда Плюс HD
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5sHWqdW/image-2024-01-29-T183040-519.png" group-title="GRAND+ | RUSSIAN", Ратник HD
+#EXTINF:-1 tvg-id="ratnik" group-title="Эфирные", Ратник HD
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik2.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-krymsky" group-title="Эфирные", Первый Крымский
 https://live1.1tvcrimea.ru/1tvcrimea.m3u8
@@ -98,7 +98,7 @@ http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMH
 #EXTINF:-1 tvg-id="otr" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",ОТР
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Gv4k1j7/image-51.png" group-title="GRAND+ | RUSSIAN", ОТР HD
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" group-title="Эфирные", ОТР HD
 http://rr2.73mtv.org/106f9711ce410c81bdb8151e157f4f1aaed/33721/hls/pl.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/417.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -151,7 +151,7 @@ http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="360-news" group-title="Новости", 360 Новости
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Новости",Известия HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+http://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 tvg-id="rzhd-tv" group-title="Новости",РЖД HD
 http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости", Мир 24
@@ -175,7 +175,7 @@ https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 http://tvcdn01.oktv.kz/tv/24kz/index.m3u8
 #EXTINF:-1 tvg-id="ufc" group-title="Спортивные", Удар ТВ
 http://87.246.54.249:8085/UDAR/index.m3u8
-#EXTINF:-1 group-title="GRAND PLUS| SPORT", UFC Network
+#EXTINF:-1 tvg-logo="http://i120.fastpic.org/big/2022/1002/60/2f8a8f9c961b16485098b28ba00c7b60.png" tvg-id="UFC Network" group-title="Спортивные", UFC Network
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/ac/3f/5c/ac3f5c30-98c6-03fa-6fc0-a6bff88868ee/App_Icon-marketing.lsr/1200x630bb.png" tvg-id="no_epg_sport" group-title="Спортивные", UFA TV HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/master.m3u8
@@ -216,7 +216,7 @@ http://vod.splay.uz/live_splay/original/Eurosport/tracks-v1a1/mono.m3u8
 http://178.134.1.158:8081/eurosport/index.m3u8
 #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные", Eurosport 1 HD 🇪🇸
 http://185.189.225.157/EuroSport1/index.m3u8
-#EXTINF:-1 tvg-logo="http://cdn.server-iptv.live/logo/tv/eurosport_fr_2.png" group-title="GRAND+ | IPORG TEST",Eurosport 2
+#EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные", Eurosport 2
 http://ip1.orgip.net/201/video.m3u8?token=M4f082ab4c
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные", Eurosport 2 HD
 http://195.64.140.147:10115/115
@@ -227,12 +227,12 @@ http://192.162.64.99:5000/play/a035/index.m3u8
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные", Eurosport 2 HD [ES]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://185.189.225.157/EuroSport2/index.m3u8
-#EXTINF:-1 group-title="RUZIEV+ IPTV| СПОРТ ПЛЮС", Старт HD
+#EXTINF:-1 tvg-id="start" group-title="Спортивные",Старт HD
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные",Старт Триумф
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/Yb2bWCCzUNL4T359tDPbdg,1760994015/streaming/start-triumf/324/1/index.m3u8
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Тонус ТВ
+#EXTINF:-1 tvg-id="tonus-tv" group-title="Спортивные",Тонус ТВ
 http://arbiter.bolshoe.tv/?path=abr1/tonustv/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Спортивные",Russian Extreme HD
 http://stream-msk-06.ott.tricolor.tv/dtv/id294_MSKSG-PVR-1--HD_Russkiy_Extreme/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
@@ -250,7 +250,7 @@ http://193.111.244.35:7474/matcharena/index.m3u8
 http://91.194.191.241:8081/chid143/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="match-boets" group-title="Спортивные", Матч! Боец HD
 http://api.peers.tv/timeshift/boets/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Матч! Игра
+#EXTINF:-1 tvg-id="match-igra" group-title="Спортивные", Матч! Игра
 http://api.peers.tv/timeshift/sport_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 tvg-id="match-igra" group-title="Спортивные", Матч Игра
 http://46.8.46.14/eurosport/index.m3u8
@@ -267,24 +267,24 @@ http://tvip.btk.teleos.ru:8081/chid52/tracks-v1a1/mono.m3u8
 http://91.194.191.241:8081/chid172/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч-Премьер
 http://192.162.64.99:5000/play/a02b/index.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/10180/logo_256_1658736853.png", Матч! Премьер
+#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч! Премьер
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/soUwCRXV1C9fuSFPczAUMQ,1762977219/streaming/match_premyer/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч Премьер HD
 http://iptv46.mcx-ix.ru:8077/nash_football_hd/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Матч! Премьер HD
+#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные", Матч! Премьер HD
 http://127.0.0.1:6878/ace/getstream?id=4b7c5f21b435d79c823e47572655a9c157a3ba12
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Матч! Футбол 1
+#EXTINF:-1 tvg-id="match-football1" group-title="Спортивные", Матч! Футбол 1
 http://178.212.71.253:8000/play/58/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Матч! Футбол 1 HD
+#EXTINF:-1 tvg-id="match-football1" group-title="Спортивные", Матч! Футбол 1 HD
 http://127.0.0.1:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9
-#EXTINF:-1 group-title="Спорткомплекс 🏆",Матч! Футбол 2
+#EXTINF:-1 tvg-id="match-football2" group-title="Спортивные", Матч! Футбол 2
 http://193.25.8.59:8000/fut
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Матч! Футбол 2 HD
+#EXTINF:-1 tvg-id="match-football2" group-title="Спортивные", Матч! Футбол 2 HD
 http://127.0.0.1:6878/ace/getstream?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04
-#EXTINF:-1 group-title="Спорткомплекс 🏆" ,Матч! Футбол 3
+#EXTINF:-1 tvg-id="match-football3" group-title="Спортивные", Матч! Футбол 3
 http://185.57.68.33/110/mpegts
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Матч! Футбол 3 HD
+#EXTINF:-1 tvg-id="match-football3" group-title="Спортивные", Матч! Футбол 3 HD
 http://127.0.0.1:6878/ace/getstream?id=b6baa046075d82da300fc1b16de96067a8b9540e
 #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные", Сетанта Спорт 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -316,7 +316,7 @@ http://tvip.btk.teleos.ru:8081/chid50/index.m3u8
 http://stream-msk-19.ott.tricolor.tv/dtv/id1064_MSKSG-PVR-1--Volleyball_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="kxl" group-title="Спортивные", КХЛ
 http://api.peers.tv/timeshift/khl/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",КХЛ ТВ
+#EXTINF:-1 tvg-id="kxl" group-title="Спортивные", КХЛ ТВ
 http://127.0.0.1:6878/ace/getstream?id=aa6c193b9de1e6b6277e3075299fdeea925e2dc0
 #EXTINF:-1 tvg-id="kxl" group-title="Спортивные", KHL
 http://46.8.46.14/khl/index.m3u8
@@ -326,7 +326,7 @@ http://84.245.224.71/KHLHD/mono.m3u8
 http://tv.streams.baikal-telecom.net:8080/KHL_HD/mpegts
 #EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные", КХЛ Prime
 http://192.162.64.99:5200/play/a046/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",KHL Prime HD
+#EXTINF:-1 tvg-id="kxl-hd" group-title="Спортивные", KHL Prime HD
 http://127.0.0.1:6878/ace/getstream?id=dcda9de85f7d662c5c3c2efd74eca0fb5c6aab3b
 #EXTINF:-1 group-title="Спортивные",Хоккей ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -448,20 +448,20 @@ https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn-us.png" group-title="Спортивные", ESPN
 http://181.188.216.5:18000/play/a0fb/index.m3u8
-#EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png" group-title="RUZIEV+ IPTV| ON JOY ©Sports",  ESPN 2
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn2-nl.png" group-title="Спортивные", ESPN 2
 http://fl2.moveonjoy.com/ESPN_2/index.m3u8
-#EXTINF:-1 group-title="RUZIEV+ IPTV| TEST EURO TV", ESPN 3
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn3-nl.png" group-title="Спортивные", ESPN 3
 http://190.11.225.124:5000/live/espn3_hd/playlist.m3u8
-#EXTINF:-1 group-title="RUZIEV+ ПРЕМИУМ ТВ",ESPN 4 
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn4-nl.png" group-title="Спортивные", ESPN 4
 http://190.102.246.93:9005/play/a019
-#EXTINF:-1 group-title="RUZIEV+ IPTV| TEST EURO TV", ESPN 5
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn1-nl.png" group-title="Спортивные", ESPN 5
 http://190.11.225.124:5000/live/espn4_hd/playlist.m3u8
-#EXTINF:-1 group-title="RUZIEV+ ПРЕМИУМ ТВ",ESPN 6 
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn1-nl.png" group-title="Спортивные", ESPN 6
 http://190.102.246.93:9005/play/a02m
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://epg.iptvx.one/picons/espn1-nl.png" group-title="Спортивные", ESPN 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://181.188.216.5:18000/play/a0i6/index.m3u8
-#EXTINF:-1 group-title="GRAND PLUS| SPORT", UNBEATEN
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://cubiktv.com/upload/images/unbeaten.png" group-title="Спортивные",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/09/billiard-tv-thumbnail.jpg" group-title="Спортивные", Billiard TV
 https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV.m3u8
@@ -548,12 +548,12 @@ http://178.217.72.72/Pyatnitsa/index.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные",СТС HD
 http://iptv46.mcx-ix.ru:8077/sts_hd/index.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТНТ
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные",ТНТ HD
 http://iptv46.mcx-ix.ru:8077/tnt_hd/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",СТС Love
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",СТС Love
 http://127.0.0.1:6878/ace/getstream?id=d586953ebbdb28493eecd8d8e8527557a231201d
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",Суббота!
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -612,7 +612,7 @@ https://fl1001.bozztv.com/ushba20/tracks-v1a1/mono.m3u8
 http://158.101.222.193:88/georgia_play.php?id=perec
 #EXTINF:-1 tvg-id="gags-network" group-title="Развлекательные",Gags Network HD
 http://217.25.80.16/Gagsnetwork/mono.m3u8
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Калейдоскоп ТВ
+#EXTINF:-1 tvg-id="kaleydoskop-tv" group-title="Развлекательные", Калейдоскоп ТВ
 http://arbiter.bolshoe.tv/?path=abr3/kaleydoskop/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные", КВН
 http://46.8.46.14/kvn/index.m3u8
@@ -634,7 +634,7 @@ http://46.8.46.14/kuhnya/index.m3u8
 http://146.120.14.239:3001/play/a08p
 #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные", Сарафан
 http://217.25.80.16/Sarafan/mono.m3u8
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Живи
+#EXTINF:-1 tvg-id="zhivi" group-title="Развлекательные", Живи
 http://arbiter.bolshoe.tv/?path=streaming/jv/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 tvg-id="yuvelirochka" group-title="Развлекательные",Ювелирочка
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
@@ -656,7 +656,7 @@ http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?token=eyJhbGciOiJI
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные", Viju Nature
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://192.162.64.99:5000/play/a02p/index.m3u8
-#EXTINF:-1 group-title="RUZIEV+ IPTV| EVGENIY TV",  Viju Nature HD
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="viasat-nature" group-title="Познавательные", Viju Nature HD
 https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
 #EXTINF:-1 group-title="Познавательные",Viju Explore
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -670,20 +670,20 @@ http://94.232.127.28:8080/viasathistory/index.m3u8
 http://195.64.140.147:10147/147
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные",Terra
 http://iptv46.mcx-ix.ru:8077/natgeo_hd/index.m3u8
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Terra HD
+#EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные",Terra HD
 http://arbiter.bolshoe.tv/?path=abr2/natgeo_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 tvg-id="terra-inkognita" group-title="Познавательные",Терра Инкогнита
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/oU2MMAFaFZ5A4cJiCgmLUQ,1760994012/streaming/terra/324/1/index.m3u8
-#EXTINF:-1 group-title="Rutube (VPN)",Тайна
+#EXTINF:-1 tvg-id="tayna" group-title="Познавательные", Тайна
 https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=mbll-yOCHzru2Mp-A_Fpjw&e=1762977602&scheme=https
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Ocean TV
+#EXTINF:-1 tvg-id="ocean-tv" group-title="Познавательные", Ocean TV
 http://95.181.17.18/abr3/ocean/71/copy/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 tvg-id="ruskorabl" group-title="Познавательные", Плюс Минус 16
 https://live-mirror-19.ott.tricolor.tv/dtv/id1010_MSKSG-PVR-1--russian_ship_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="galaxy-tv" group-title="Познавательные", Тайны Галактики
 http://api.peers.tv/timeshift/galaxy_tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Цитадель-Крым (VPN)",Galaxy
+#EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные", Galaxy
 http://tv.ttk.mx:9071
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные", National Geo Wild
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -694,15 +694,15 @@ http://tvip.btk.teleos.ru:8081/chid112/mono.m3u8
 https://vod.splay.uz/live_splay/original/Nat_Geo_Wild_HD/mono.m3u8
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные", NationalGeographic
 https://tt.tas-ix.media:444/Discovery/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Вокзал-Инфоком (VPN)",National Geographic
+#EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные", National Geographic
 http://217.25.80.16/National_Geographic/mono.m3u8
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные", National Geographic HD
 https://vod.splay.uz/live_splay/original/National_Geographic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Discovery HD
-http://127.0.0.1:6878/ace/getstream?id=09f099db0453cf7517e133533aadfd5136eca771
+#EXTINF:-1 tvg-id="discovery-channel" group-title="Познавательные", Discovery HD
+http://94.232.127.28:8080/discovery-east/index.m3u8
 #EXTINF:-1 tvg-id="discovery-channel" group-title="Познавательные", Discovery Channel HD
 http://iptv46.mcx-ix.ru:8077/DiscoveryChannelHD/index.m3u8
-#EXTINF:-1 group-title="Individual Entrepreneur",Discovery Science
+#EXTINF:-1 tvg-id="discovery-science-pl" group-title="Познавательные", Discovery Science
 http://46.8.46.14/DiscoveryScience/index.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", ID Investigation Discovery Европа
 http://46.8.46.14/InvestigationDiscovery/index.m3u8
@@ -710,16 +710,16 @@ http://46.8.46.14/InvestigationDiscovery/index.m3u8
 http://94.232.127.28:8080/idxtra/index.m3u8
 #EXTINF:-1 tvg-id="history" group-title="Познавательные", History HD
 http://iptv46.mcx-ix.ru:8077/History-HD/index.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/10384/logo_256_1658737285.png", Перпетуум Мобиле
+#EXTINF:-1 tvg-id="perpetmobile" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" group-title="Познавательные", Перпетуум Мобиле
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/pHqfDulHSf3F_7QBGS_RKg,1762977219/streaming/pmobile/324/1/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,The Explorers
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="the-explorers" group-title="Познавательные", The Explorers
 http://api.peers.tv/timeshift/the_explorers/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
-#EXTINF:-1 group-title="Сайт (VPN)",DocuBox
+#EXTINF:-1 tvg-id="docubox-hd" group-title="Познавательные", DocuBox
 http://193.25.8.59:8000/24Doc
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="docubox-hd" group-title="Познавательные", DocuBox HD
 http://api.peers.tv/timeshift/docubox_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="UAB Airnet TV",TLC
+#EXTINF:-1 tvg-id="tlc" group-title="Познавательные", TLC
 http://94.232.127.28:8080/tlc/index.m3u8
 #EXTINF:-1 tvg-id="tlc" group-title="Познавательные", TLC HD
 http://5.188.159.128:8070/TLC/index.m3u8
@@ -760,16 +760,16 @@ http://stream-msk-04.ott.tricolor.tv/dtv/id158_MSKSG-PVR-1--HD_Teletr/03/plst.m3
 http://46.8.46.14/Drive/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="drive" group-title="Познавательные", Драйв [архив]
 http://api.peers.tv/timeshift/drive/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Авто 24
+#EXTINF:-1 tvg-id="avto24" group-title="Познавательные", Авто 24
 http://127.0.0.1:6878/ace/getstream?id=7e515477cf191b1e4e33c7151c7cf84925f16780
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="avto24" group-title="Познавательные", Авто 24 [архив]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://api.peers.tv/timeshift/avto_24/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Авто Плюс
+#EXTINF:-1 tvg-id="avto-plus" group-title="Познавательные", Авто Плюс
 http://127.0.0.1:6878/ace/getstream?id=c3ff9e5243014a19c3cee52159d68fd750eeecb9
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="avto-plus" group-title="Познавательные", Авто Плюс [архив]
 http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="CloudFlare Inc (VPN 🇷🇺)",Моя Планета
+#EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные",Моя Планета
 https://livetv.mylifeisgood.net.ru/channels/myplanet.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные",Моя Планета HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -808,7 +808,7 @@ http://109.75.59.241:8017/BigPlanet/index.m3u8
 http://45.11.139.43:8555/365dney/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="365-dnej" group-title="Познавательные", 365 дней HD
 http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Кто есть кто
+#EXTINF:-1 tvg-id="kto-est-kto" group-title="Познавательные", Кто есть кто
 http://127.0.0.1:6878/ace/getstream?id=16201468d380dafc1921287db09289dc83d688c0
 #EXTINF:-1 tvg-id="stv-by" group-title="Познавательные", СТВ Беларусь
 https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
@@ -820,7 +820,7 @@ http://188.190.222.53/RTG_TV/index.m3u8
 http://95.66.188.74/RTGHD/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="glazami-turista" group-title="Познавательные", Глазами туриста
 http://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Глазами туриста HD
+#EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные", Глазами туриста HD
 http://127.0.0.1:6878/ace/getstream?id=4f3037f55f54cf2417a6d6847adc5095537f9e83
 #EXTINF:-1 group-title="Познавательные",Оружие
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Oruzhie.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
@@ -832,24 +832,23 @@ https://stream-msk-11.ott.tricolor.tv/dtv/id654_MSKSG-PVR-1--Centralnoe_TV/04/pl
 http://91.194.191.241:8081/chid120/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="muzhskoy" group-title="Познавательные", Мужской HD
 http://api.peers.tv/timeshift/muzhskoj/126/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Дикий
+#EXTINF:-1 tvg-id="dikiy" group-title="Познавательные", Дикий
 http://127.0.0.1:6878/ace/getstream?id=c60f8614f11e0f11338e25567a92f5fb84eb4832
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Познавательные", Дикая охота
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://192.162.64.99:5000/play/a03a/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Дикая охота HD
+#EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Познавательные", Дикая охота HD
 http://127.0.0.1:6878/ace/getstream?id=cd421b221ef7bae31a599542cd9c061fc66b30aa
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Познавательные", Дикая рыбалка
 http://192.162.64.99:5000/play/a039/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Дикая рыбалка HD
+#EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Познавательные", Дикая рыбалка HD
 http://127.0.0.1:6878/ace/getstream?id=b85a8f5825dc7fca3e8046af445bb776541b8bd0
 #EXTINF:-1 tvg-logo="https://assets.wired2fish.com/uploads/2021/08/logo-wired2fish.png" tvg-id="no_epg" group-title="Познавательные", Wired2Fish
 http://linear-80.frequency.stream/dist/localnow/80/hls/master/playlist.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="oxota-i-rybalka" group-title="Познавательные",Охота и рыбалка
 http://api.peers.tv/timeshift/hafi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Диалоги о рыбалке
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="dialogi-o-rybalke" group-title="Познавательные", Диалоги о рыбалке
 http://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
-#EXTINF:-1 group-title="Individual Entrepreneur",Охотник и рыболов HD
+#EXTINF:-1 group-title="Познавательные",Охотник и рыболов HD
 http://46.8.46.14/ohota/index.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov-int" group-title="Познавательные", Охотник и Рыболов Int
 https://stream-msk-14.ott.tricolor.tv:443/dtv/id614_MSKSG-PVR-1--Ohotnik_i_ryb_int_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
@@ -859,7 +858,7 @@ https://stream-msk-12.ott.tricolor.tv:443/dtv/id665_MSKSG-PVR-1--Rybalov/04/plst
 https://stream-msk-04.ott.tricolor.tv/dtv/id590_MSKSG-PVR-1--Nasha_Tema/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 tvg-id="kluch" group-title="Познавательные",Ключ
 http://192.162.64.99:5000/play/a03q/index.m3u8
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",В мире животных HD
+#EXTINF:-1 group-title="Познавательные",В мире животных HD
 http://127.0.0.1:6878/ace/getstream?id=30ed25e99233ae63f7e10787c8806f74f52a437c
 #EXTINF:-1 tvg-id="lapki-live" group-title="Познавательные",Лапки Live
 https://stream-msk-14.ott.tricolor.tv/dtv/id926_MSKSG-PVR-1--LapkiLive/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
@@ -882,7 +881,7 @@ https://stream-msk-05.ott.tricolor.tv:443/dtv/id267_MSKSG-PVR-1--Zhivaya_Planeta
 http://stream-msk-04.ott.tricolor.tv/dtv/id259_MSKSG-PVR-1--Istoriya/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 tvg-id="tochka-otryva" group-title="Познавательные", Точка отрыва HD
 http://192.162.64.99:5000/play/a03r/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Love Nature
+#EXTINF:-1 tvg-id="love-nature-4k" group-title="Познавательные", Love Nature
 http://95.67.12.82:9098
 #EXTINF:-1 tvg-id="nauka-20" group-title="Познавательные",Наука 2.0 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -915,7 +914,7 @@ http://192.162.64.99:5200/play/a02f/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", VIP PREMIERE HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DR6PqYf/image-2024-01-30-T193516-176.png" group-title="GRAND+ | DIGITAL TV +",  VIJU+ MEGAHIT
+#EXTINF:-1 group-title="Кино и сериалы",VIJU+ MEGAHIT
 http://92.242.110.52:9835/udp/238.1.3.7:1234
 #EXTINF:-1 group-title="Кино и сериалы",VIJU+ MEGAHIT HD
 http://46.8.46.14/vipmegahit/index.m3u8
@@ -927,6 +926,7 @@ http://194.32.242.245/vipcomedy/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ COMEDY HD
 http://46.8.46.14/vipcomedy/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", VIP COMEDY HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ SERIAL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -935,7 +935,7 @@ http://tvip.btk.teleos.ru:8081/chid40/index.m3u8
 http://91.194.191.241:8081/chid40/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", VIP SERIAL HD
 http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="FDCservers" , Viasat Kino
+#EXTINF:-1 tvg-id="tv1000-cee" group-title="Кино и сериалы", Viasat Kino
 http://50.7.28.226/9020/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action-cee" group-title="Кино и сериалы", Viasat Kino Action
 http://94.232.127.28:8080/tv1000action/index.m3u8
@@ -948,9 +948,9 @@ http://91.194.191.241:8081/chid70/mono.m3u8
 https://mhd128.iptv2022.com/p/4KmKmYWTOlWED5xVOGiiTQ,1760994009/streaming/fenixkino/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="gosfilmofond-mv" group-title="Кино и сериалы",Госфильмофонд. Машина времени
 https://mhd128.iptv2022.com/p/2dF8ncYzGauxB09y-gQiYg,1760994026/streaming/car_is_vermen/324/1/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img/7278.png" group-title="GRAND+ | КИНО МИКС",  Movie Classic
+#EXTINF:-1 tvg-logo="https://www.ph4.ru/DL/LOGO/m/movie_classic.gif" tvg-id="no_epg_cinema" catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", Movie Classic
 http://158.101.214.187:8080/channel/n14495728/index.m3u8?q=ec169442aab2844b773aac162ac7a98f
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Кинеко HD
+#EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы",Кинеко HD
 http://127.0.0.1:6878/ace/getstream?id=6c6849a17243f967d0c6f04323af9dfde161c3f2
 #EXTINF:-1 tvg-id="sapfir" group-title="Кино и сериалы", Сапфир HD
 https://stream-msk-17.ott.tricolor.tv/dtv/id991_MSKSG-PVR-1--Sapphire_HD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
@@ -962,34 +962,34 @@ http://94.232.127.28:8080/tv1000premium/index.m3u8
 http://91.194.191.241:8081/chid69/tracks-v1a1/mono.m3u8
 #EXTINF:-1bcatchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы",viju TV1000 Русское кино HD
 http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",TV1000
+#EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы", TV1000
 http://arbiter.bolshoe.tv/?path=streaming/tv1000/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы", viju TV1000 HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=mlm-EOnX8fTU0Rv6AhINsw&e=1761764735&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+http://tr.redatvgold.com/play/live.php?mac=00:1A:79:23:8F:33&stream=132750&extension=ts&play_token=T2oKXX9jm7
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",viju TV1000 Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://46.8.46.14/actiontv/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы",viju TV1000 Action HD
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/TV1000_Action_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=l9e_aN8EtseFn70Epaunxg&e=1761764827&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
-#EXTINF:-1 group-title="TEST ⓵",viju TV1000 romantica
+http://87.99.87.203:2007/channel/n4059fafd/index.m3u8?q=52c8abe37164a6d25a67fe501b16c54e
+#EXTINF:-1 tvg-id="viju-tv1000-romantica" group-title="Кино и сериалы",viju TV1000 romantica
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.ts.m3u8?filter.tracks=v1v2v3a1&md5=2Pd93dKx18RAyAJzNfyycA&e=1762891815&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
-#EXTINF:-1 tvg-logo="http://epg.one/img/127.png" group-title="GRAND+ | КИНО МИКС",  viju TV1000 Новелла
+#EXTINF:-1 tvg-id="viju-tv1000-novella" group-title="Кино и сериалы",viju TV1000 Новелла
 http://158.101.194.132:8080/channel/n51877d66/index.m3u8?q=5656d7c7c902657d3491c0330b58ec0e
-#EXTINF:-1 group-title="RUZIEV+ IPTV| KINO+ 2",  A1
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы", A1
 http://stream01.vnet.am/Channel_128/mono.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы", Amedia 1
 http://iptv46.mcx-ix.ru:8077/amedia/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img2/3961.png" group-title="RUZIEV+ IPTV| I LOOK ТУРЦИЯ",  A2
+#EXTINF:-1 group-title="Кино и сериалы", A2
 http://zxfjaukj.akciatv.ru/iptv/WWEX4VRHZ4XEK4/2260/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Amedia 2
-http://158.160.149.81:8080/462/index.m3u8
+http://api.peers.tv/timeshift/amedia_2/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Hit
 http://158.101.222.193:88/georgia_play.php?id=amediahit
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Hit HD
 http://iptv46.mcx-ix.ru:8077/amedia_hit_hd/index.m3u8
-#EXTINF:-1 group-title="Дагнет (VPN)",Amedia Premium
+#EXTINF:-1 group-title="Кино и сериалы",Amedia Premium
 http://193.33.88.172/amedia_premium_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Amedia Premium HD
+#EXTINF:-1 group-title="Кино и сериалы",Amedia Premium HD
 http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .black
 http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
@@ -1003,7 +1003,7 @@ http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR
 http://tvip.btk.teleos.ru:8081/chid85/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .sci-fi
 http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 tvg-logo="http://cdn.server-iptv.live/logo/tv/sony_scifi_ru.png" group-title="GRAND+ | IPORG TEST", Sony Sci-Fi
+#EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы", Sony Sci-Fi
 http://ip1.orgip.net/648/video.m3u8?token=M4f082ab4c
 #EXTINF:-1 tvg-id="super-baltic" group-title="Кино и сериалы", Super Baltic HD
 http://84.245.224.71/SuperBaltic/mono.m3u8
@@ -1017,7 +1017,7 @@ http://176.126.166.43:1935/live/312kino/playlist.m3u8
 http://5.188.159.128:8070/TV1000_World_Kino/index.m3u8
 #EXTINF:-1 tvg-id="start-air" group-title="Кино и сериалы",Start Air
 http://192.162.64.99:5200/play/a02u/index.m3u8
-#EXTINF:-1 group-title="CloudFlare Inc (VPN 🇷🇺)",Start Air HD
+#EXTINF:-1 tvg-id="start-air" group-title="Кино и сериалы",Start Air HD
 https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTINF:-1 tvg-id="start-world" group-title="Кино и сериалы",Start World
 http://109.248.236.51/start_world_hd/tracks-v1a1/mono.m3u8
@@ -1025,17 +1025,17 @@ http://109.248.236.51/start_world_hd/tracks-v1a1/mono.m3u8
 https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 #EXTINF:-1 tvg-id="star-family" group-title="Кино и сериалы", Star Family
 http://192.162.64.99:5100/play/a02u/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Star Family HD
+#EXTINF:-1 tvg-id="star-family" group-title="Кино и сериалы", Star Family HD
 http://api.peers.tv/timeshift/star_family_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 tvg-id="star-cinema" group-title="Кино и сериалы", Star Cinema
 http://192.162.64.99:5100/play/a02v/index.m3u8
-#EXTINF:-1 group-title="TEST ⓵",Star Cinema HD
+#EXTINF:-1 tvg-id="star-cinema" group-title="Кино и сериалы", Star Cinema HD
 http://84.245.224.71/StarCinemaHD/mono.m3u8
 #EXTINF:-1 tvg-id="paramount-comedy" group-title="Кино и сериалы", Comedy Central
 http://46.8.46.14/paramountcomedy/index.m3u8
 #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы", Plan B
-http://192.162.64.99:5100/play/a02t/index.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/10071/logo_256_1658737421.png", Ретро ТВ
+http://217.25.80.16/plan_b_hd/mono.m3u8
+#EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы", Ретро ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/pNZdNFTgMtQP4CjRRZbaAg,1762977219/streaming/retro/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="saga-tv" group-title="Кино и сериалы", Saga TV
@@ -1110,32 +1110,32 @@ http://91.194.191.241:8081/chid413/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="trashtv" group-title="Кино и сериалы", Trash TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Киносат
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="kinosat" group-title="Кино и сериалы", Киносат
 http://api.peers.tv/timeshift/kinosat/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Хит HD
+#EXTINF:-1 tvg-id="khit-hd" group-title="Кино и сериалы", Хит HD
 http://127.0.0.1:6878/ace/getstream?id=3eb0fde3eb9b432b6a978742e73dccf4ec0c5b5d
 #EXTINF:-1 tvg-id="filmbox-ru" group-title="Кино и сериалы", FilmBox
 http://188.190.222.53/FilmBOX/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="filmbox-ru" group-title="Кино и сериалы", FilmBox Russia
 http://api.peers.tv/timeshift/filmbox/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 tvg-logo="http://epg.one/img2/2182.png" group-title="RUZIEV+ IPTV| I LOOK КИНО",  FilmBox ArtHouse
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="filmbox-arthouse" group-title="Кино и сериалы", FilmBox ArtHouse
 http://zxfjaukj.akciatv.ru/iptv/FHH84H2DHD9F4MDXE49XPW4U/1071/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)" ,Timeless Dizi Channel
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="timeless-dizi" group-title="Кино и сериалы", Timeless Dizi Channel
 http://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
-#EXTINF:-1 tvg-logo="http://epg.one/img/6724.png" group-title="GRAND+ | КИНО МИКС",  Timeless Dizi Channel HD
+#EXTINF:-1 tvg-id="timeless-dizi" group-title="Кино и сериалы", Timeless Dizi Channel HD
 http://158.101.194.132:8080/channel/n7aa08c2c/index.m3u8?q=5656d7c7c902657d3491c0330b58ec0e
 #EXTINF:-1 group-title="Кино и сериалы",Телекафе
-https://stream-msk-09.ott.tricolor.tv/dtv/id366_MSKSG-PVR-1--Telecafe/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
+http://arbiter.bolshoe.tv/?path=streaming/telekafe/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Кино и сериалы", Zee-TV
 http://158.101.222.193:88/georgia_play.php?id=zeetv
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", Индия
 http://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="TEST (VPN)" tvg-id="pro100", Про100 ТВ
+#EXTINF:-1 tvg-id="pro100" group-title="Кино и сериалы", Про100 ТВ
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы", FOX
 http://46.8.46.14/FOX/index.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы", FX
-http://91.194.191.241:8081/chid67/tracks-v1a1/mono.m3u8
+http://46.8.46.14/FOX/index.m3u8
 #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы", Fox Life
 http://94.232.127.28:8080/foxlife/index.m3u8
 #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы", Fox Life HD
@@ -1151,26 +1151,26 @@ https://vod.splay.uz/live_splay/original/Kinopremera/tracks-v1a1/mono.m3u8
 http://tvip.btk.teleos.ru:8081/chid518/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы",Кинопремьера HD
 http://api.peers.tv/timeshift/premera/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Кинохит
+#EXTINF:-1 group-title="Кино и сериалы", Кинохит
 http://arbiter.bolshoe.tv/?path=streaming/kinohit/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", Кинохит HD
-http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Киносемья
+http://127.0.0.1:6878/ace/getstream?id=f1fe45c8d5f58301c74dde7acaf4db13e497b586
+#EXTINF:-1 group-title="Кино и сериалы",Киносемья
 http://arbiter.bolshoe.tv/?path=streaming/kinofamily/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы",Киносемья HD
-http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Киносвидание
+http://127.0.0.1:6878/ace/getstream?id=e177586ae336f410e95e784348e4a1f7a82e0952
+#EXTINF:-1 group-title="Кино и сериалы", Киносвидание
 http://arbiter.bolshoe.tv/?path=abr3/kinosvidanie/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", Киносвидание HD
-http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)"  ,Киномикс
+http://lb.wisp.cat/lb0/KinosvidanieHD/mpegts?token=nPfO4rRaax
+#EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы", Киномикс
 http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы",Киномикс HD
-http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers (VPN)"  ,Киносерия
+http://127.0.0.1:6878/ace/getstream?id=3dba401ca5f2508ddfa955333e233d40d7f3572e
+#EXTINF:-1 group-title="Кино и сериалы", Киносерия
 http://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", Киносерия HD
-http://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
+http://158.101.214.187:8080/channel/5b3013c2/index.m3u8?q=ec169442aab2844b773aac162ac7a98f
 #EXTINF:-1 group-title="Кино и сериалы", Многосерийное ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://vod.splay.uz/live_splay/original/Kinoseriya/index.m3u8
@@ -1180,22 +1180,23 @@ http://91.194.191.241:8081/chid461/tracks-v1a1/mono.m3u8
 http://tvip.btk.teleos.ru:8081/chid461/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="kinouzhas" group-title="Кино и сериалы", Киноужасы
 http://api.peers.tv/timeshift/kinouzhas/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Наше новое кино
+#EXTINF:-1 tvg-id="nashe-novoe-kino" group-title="Кино и сериалы",Наше новое кино
 http://arbiter.bolshoe.tv/?path=abr4/nashe_novoe_kino/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="nashe-novoe-kino" group-title="Кино и сериалы",Наше новое кино HD
 http://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Кинокомедия
+#EXTINF:-1 group-title="Кино и сериалы",Кинокомедия
 http://arbiter.bolshoe.tv/?path=abr1/komedia/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы",Кинокомедия HD
 http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Индийское кино
+#EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы", Индийское кино
 http://arbiter.bolshoe.tv/?path=abr1/india/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="indiyskoe-kino" group-title="Кино и сериалы", Индийское кино HD
 http://api.peers.tv/timeshift/indiatv/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Родное кино
+#EXTINF:-1 tvg-id="rodnoe-kino" group-title="Кино и сериалы", Родное кино
 http://127.0.0.1:6878/ace/getstream?id=b46c879a624e1d0aa8eeb18300cda7413657e80a
 #EXTINF:-1 tvg-id="muzhskoe-kino" group-title="Кино и сериалы", Мужское кино
-http://91.194.191.241:8081/chid462/tracks-v1a1/mono.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/BBEi2YMj37TZIg1NWq9rcA,1762977217/streaming/male-movie/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Настоящее страшное ТВ
 http://stream-msk-01.ott.tricolor.tv/dtv/id518_MSKSG-PVR-1--NST/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 group-title="Кино и сериалы", День Победы HD
@@ -1205,14 +1206,14 @@ http://stream-msk-14.ott.tricolor.tv/dtv/id545_MSKSG-PVR-1--Pobeda/03/plst.m3u8?
 #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы", Победа SD
 http://46.8.46.14/Pobeda/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="pobeda" group-title="Кино и сериалы", Победа HD
-http://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/10182/logo_256_1658733860.png", Shot TV
+http://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
+#EXTINF:-1 tvg-id="shot-tv" group-title="Кино и сериалы", Shot TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/szHybIYI_qDqwRhFBYytIw,1762977218/streaming/shottv/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="ТЕЛЕОС-1 (VPN)",Hollywood
+#EXTINF:-1 group-title="Кино и сериалы",Hollywood
 http://91.194.191.241:8081/chid412/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Hollywood HD
-http://tvip.btk.teleos.ru:8081/chid421/tracks-v1a1/mono.m3u8
+http://127.0.0.1:6878/ace/getstream?id=3cacfef48b11ea2a81282c4b49b3eac4d7cce501
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы",Cinema
 http://stream-msk-06.ott.tricolor.tv/dtv/id423_MSKSG-PVR-1--Cinema/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы", Cinema HD
@@ -1220,7 +1221,8 @@ http://vod.splay.uz/live_splay/original/CinemaHD/index.m3u8
 #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы", Дом кино
 http://46.8.46.14/domkino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Дом Кино
-http://stream-msk-13.ott.tricolor.tv/dtv/id176_MSKSG-PVR-1--D_Kino/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
+#EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
+https://streaming.thestream.cyou/live/44-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Дом Кино Премиум HD
 http://stream-msk-08.ott.tricolor.tv/dtv/id396_MSKSG-PVR-1--HD_Dom_Kino_premium/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 tvg-id="russky-detektiv" group-title="Кино и сериалы", Русский детектив
@@ -1244,7 +1246,7 @@ http://stream-msk-08.ott.tricolor.tv/dtv/id511_MSKSG-PVR-1--FAN_HD/03/plst.m3u8?
 #EXTINF:-1 group-title="Кино и сериалы",Еврокино
 http://46.8.46.14/eurokino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Беларусь 3 HD
-https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_sleng.m3u8
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
 #EXTINF:-1 tvg-id="bollywood-hd" group-title="Кино и сериалы",Bollywood
 http://stream-msk-10.ott.tricolor.tv/dtv/id640_MSKSG-PVR-1--Bollywood/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 group-title="Кино и сериалы",Мир сериала
@@ -1255,31 +1257,31 @@ http://stream-msk-10.ott.tricolor.tv/dtv/id360_MSKSG-PVR-1--Vremya/03/plst.m3u8?
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", SeleCaoTV 1
 https://132544.edgevideo.ru/streams/132544_951371/playlist.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",SeleCaoTV 2
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", SeleCaoTV 2
 https://132544.edgevideo.ru/streams/132544_954167/playlist.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/10399/logo_256_1660802580.png", Kinoteatr
+#EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=65381b6ca4f48065ad3a527c106abad8-4546582-images-thumbs&n=13" tvg-id="no_epg_cinema" group-title="Кинозалы", Kinoteatr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/cmrc13iQFQnAzZAyx0Jf0w,1762977221/streaming/kinoteatr/324/1/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://i.postimg.cc/MTw7GvDw/Video-Arsenal.png",Video Arsenal
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTw7GvDw/Video-Arsenal.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Video Arsenal
 https://132544.edgevideo.ru/streams/132544_931730/1325441080/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)",KinoMix
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://sun1-14.userapi.com/s/v1/ig1/ipIyCev4KHEIcx4urmZVzULjxRdlDBM6jxwVi854MGxUw6jagkf8ISPD9X5pzagyMY4hxCN1.jpg?quality=96&crop=0,0,500,500&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480&ava=1&cs=240x240" group-title="Кинозалы", KinoMix
 https://132544.edgevideo.ru/streams/132544_940640/1325441080/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/20176540/avatar?change_time=1754116868&croped=1&mh=70&mw=70" group-title="Кинозалы", Film Best TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://132544.edgevideo.ru/streams/132544_975653/1325441080/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)",Скрипач ТВ
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://ritsatv.ru/files/picture/original/1752867301254-scripatchtv2.webp" group-title="Кинозалы", Скрипач ТВ
 https://132544.edgevideo.ru/streams/132544_935537/1325441080/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://img.catcast.tv/uploads/04092021/logos/40672-61329195ca44d.jpg" group-title="Кинозалы", LAV-KINO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://fl1004.bozztv.com/ushba32/tracks-v1a1/mono.m3u8
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://pluspng.com/img-png/shows-hd-png--1920.jpg",SeriesTV
 http://132544.edgevideo.ru/streams/132544_931337/1325441080/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://telik.live/images/fmc-tv.png",FMC
+#EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://telik.live/images/fmc-tv.png", FMC 
 https://132544.edgevideo.ru/streams/132544_931346/1325441080/index.m3u8
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://play-lh.googleusercontent.com/wwz2HKVIZukrBnsW7nfhnipf395UTiW3PpVGbMttX7X8CpW4bEds8guoq-lEESluGxQ=s75-rw", ЛИК
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://autopilot.catcast.tv/content/41596/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img2/9065.png" group-title="RUZIEV+ IPTV| I LOOK НОВЫЕ",    VHS-ка HD
+#EXTINF:-0 tvg-id="vhs-ka" group-title="Кинозалы" tvg-logo="https://epg.iptvx.one/picons/vhs-ka.png", VHS-ка HD 
 http://zxfjaukj.akciatv.ru/iptv/WWEX4VRHZ4XEK4/5006/index.m3u8
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://i.pinimg.com/originals/16/03/c4/1603c4776d6b40f6c4123736f6ba2680.jpg", MGM
 https://autopilot.catcast.tv/content/44051/index.m3u8
@@ -1309,13 +1311,13 @@ http://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
 #EXTINF:-1 tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" tvg-id="no_epg_cinema" group-title="Кинозалы", Alpha Moretime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://fsd.kopilkaurokov.ru/up/html/2020/01/27/k_5e2f1ef814d50/img_user_file_5e2f1ef9dd433_0_0.jpg",WWW
+#EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://fsd.kopilkaurokov.ru/up/html/2020/01/27/k_5e2f1ef814d50/img_user_file_5e2f1ef9dd433_0_0.jpg",WWW 
 https://132544.edgevideo.ru/streams/132544_931349/1325441080/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)",Techno Dance Music
+#EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://lh4.ggpht.com/usGW8vwiQGrEH6OH6kLgVrXAqJlqzcmm1qnkwQ3AnHywhA73Hs8vVOxd1_qfv720y4M",Techno Dance Music
 https://132544.edgevideo.ru/streams/132544_931193/1325441080/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://thumbs.dreamstime.com/b/retro-music-sticker-recorder-55010572.jpg",RETRO Music Hits
+#EXTINF:-0 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://thumbs.dreamstime.com/b/retro-music-sticker-recorder-55010572.jpg",RETRO Music Hits
 https://132544.edgevideo.ru/streams/132544_931325/1325441080/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Gameplay
+#EXTINF:-1 tvg-id="no_epg" group-title="Кинозалы" tvg-logo="https://www.codester.com/static/uploads/items/000/010/10952/preview.jpg", Gameplay
 https://fl1001.bozztv.com/ushba31/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Кинозалы" tvg-logo="https://cdn.vox-cdn.com/thumbor/cKmWp_uKpELnAmMk4BEIdJShlrk=/0x0:960x540/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/34106623/gametrailers-logo_960.0.jpg", Gameplay трейлеры
 https://fl1001.bozztv.com/ushba44/index.m3u8
@@ -1397,29 +1399,29 @@ https://fl1001.bozztv.com/ushba-films-w/index.m3u8
 https://fl1001.bozztv.com/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 25
 https://fl1001.bozztv.com/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 26
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 26
 https://fl1001.bozztv.com/ushba-rfilrms-b/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 27
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 27
 https://fl1001.bozztv.com/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 28
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 28
 https://fl1001.bozztv.com/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 29
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 29
 https://fl1001.bozztv.com/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 30
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 30
 https://fl1001.bozztv.com/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 31
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 31
 https://fl1001.bozztv.com/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 32
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 32
 https://fl1001.bozztv.com/ushba-rfilrms-k/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 33
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 33
 https://fl1001.bozztv.com/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 34
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 34
 https://fl1001.bozztv.com/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 35
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 35
 https://fl1001.bozztv.com/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 36
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 36
 https://fl1001.bozztv.com/ushba64/index.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Кинозалы 37
+#EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 37
 https://fl1001.bozztv.com/ushba65/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" group-title="Кинозалы" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png",Кинозалы 38
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
@@ -1532,15 +1534,19 @@ http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv9ilh616q4OXW1P_wmg5R_c/m3u8
 #EXTINF:-1 group-title="Кинозалы 3",Clarity4K Семейный
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv2rbJdyAm9SQytYhL4-XGdI/m3u8
 #EXTINF:-1 tvg-name="Clarity4K Драмы" group-title="Кинозалы 3",Clarity4K Драмы
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv3cw3AYcpykIevuuHuTNLHo/m3u8
 #EXTINF:-1 tvg-name="Clarity4K КиноФраншизы" group-title="Кинозалы 3",Clarity4K КиноФраншизы
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvwTy_xynfL02EvcZe17vsIM/m3u8
 #EXTINF:-1 tvg-name="Clarity4K Русские сериалы" group-title="Кинозалы 3",Clarity4K Русские сериалы
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv1FuqOHg8H8BrXSp5tXXeds/m3u8
 #EXTINF:-1 tvg-name="Clarity4K Фэнтези" group-title="Кинозалы 3",Clarity4K Фэнтези
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvykLh0twtzi_g6SbofMifbQ/m3u8
 #EXTINF:-1 tvg-name="Clarity4K Concert" group-title="Кинозалы 3",Clarity4K Asia
-http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv6nnBpBDCvrcw2Wti3VqPhA/m3u8
+http://lb.wisp.cat/lb0/Clarity4K_Asia/mpegts?token=nPfO4rRaax
 #EXTINF:-1 group-title="Кинозалы IPTVPLAY" tvg-logo="https://i122.fastpic.org/big/2024/0112/65/b20ebb09af08ef55dbdffa919a047c65.png", IPTVPLAY МультСказки HD
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Кинозалы IPTVPLAY" tvg-logo="https://i123.fastpic.org/big/2024/0826/01/adbb4692281cf3cc6540f47f4460c701.png", IPTVPLAY ВЕДЬМАК
@@ -1574,24 +1580,30 @@ https://cityeden.catcast.tv/content/41331/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_kinomostika.png" tvg-id="cityedem-kinomist" group-title="Кинозалы Сити Эдем", Сити Эдем - КиноМистика
 https://cityeden.catcast.tv/content/40783/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/kinofantastika_logotip.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - КиноФантастика
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/45268/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_siti_ehdem-kinoehkshen2.png" tvg-id="cityedem-kinoact" group-title="Кинозалы Сити Эдем", Сити Эдем - КиноЭкшен
 https://cityeden.catcast.tv/content/41333/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_telenovella.png" tvg-id="cityedem-telenov" group-title="Кинозалы Сити Эдем", Сити Эдем - Теленовелла
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/46209/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_birma_plej.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - Бирма Play
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/34100/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/siti_ehdem-klassika.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - Классическая Музыка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/47400/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/sirtaki_tv.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - Сиртаки ТВ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/46421/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_avtogid1.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - АвтоГид
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/47515/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.cityeden.info/logotv/logotip_medzdrav1.png" tvg-id="no_epg_cinema" group-title="Кинозалы Сити Эдем", Сити Эдем - МедЗдрав
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 https://cityeden.catcast.tv/content/47519/index.m3u8
 #EXTINF:-1 tvg-logo="http://only4.tv/ch/822.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские", Карусель
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+http://127.0.0.1:6878/ace/getstream?id=c008e67929d47855b43f7a9af7305a6c32504132
 #EXTINF:-1 tvg-id="karusel" tvg-logo="http://only4.tv/ch/822.png" group-title="Детские", Карусель HD
 https://live-stream-12.ott.tricolor.tv/live/live/karusel/hls_enc/karusel.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 group-title="Детские", Солнце
@@ -1608,14 +1620,14 @@ https://stream-msk-20.ott.tricolor.tv/dtv/id975_MSKSG-PVR-1--2x2/02/plst.m3u8?dr
 #EXTINF:-1 tvg-id="da-vinci" group-title="Детские", Да Винчи
 http://91.194.191.241:8081/chid426/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские",Мультиландия
-http://91.194.191.241:8081/chid62/tracks-v1a1/mono.m3u8
+http://127.0.0.1:6878/ace/getstream?id=78f1672c711f67c5588ecc96580f7524c0fb87fb
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские", Лёва
-http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
-#EXTINF:-1 group-title="RUZIEV+ IPTV| ITV UZ", Duck TV HD
+http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-logo="https://epg.iptvx.one/picons/ducktv.png" tvg-id="ducktv" group-title="Детские", Duck TV HD
 https://stream11.itv.uz/1271/index.m3u8
 #EXTINF:-1 tvg-id="sts-kids-hd" group-title="Детские", СТСKids HD
 http://87.246.54.249:8085/CTC_Kids/mpegts
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",СТС Kids HD
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские", СТС Kids HD
 http://127.0.0.1:6878/ace/getstream?id=c0d8e40d726705eaa3c8e714e38babffd2dd18cb
 #EXTINF:-1 tvg-id="baby-time" group-title="Детские", Baby TIME
 https://livetv.mylifeisgood.net.ru/channels/babytime.m3u8
@@ -1625,11 +1637,11 @@ http://91.194.191.241:8081/chid273/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские", В гостях у сказки
 http://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
 #EXTINF:-1 tvg-id="v-gostiax-u-skazki" group-title="Детские", В Гостях у Сказки
-http://91.194.191.241:8081/chid61/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Большое ТВ (VPN)",Мульт
+https://stream11.itv.uz/1270/index.m3u8
+#EXTINF:-1 group-title="Детские", Мульт
 http://arbiter.bolshoe.tv/?path=abr4/mult/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTEvMjAyNSA3OjUzOjQ1IFBNJmhhc2hfdmFsdWU9NGhFUlduYkEvYmg1d3l4OWo2WlZCZz09JnZhbGlkbWludXRlcz03MjAmaWQ9Nzc3
 #EXTINF:-1 group-title="Детские",Мульт HD
-http://stv.mediacdn.ru/live/cdn/mult/playlist.m3u8
+http://127.0.0.1:6878/ace/getstream?id=83392085bd6971ff98e8884913a51c3313126f7f
 #EXTINF:-1 group-title="Детские",О!
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=O.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
 #EXTINF:-1 group-title="Детские",Уникум
@@ -1637,33 +1649,35 @@ http://46.8.46.14/detskiy/index.m3u8
 #EXTINF:-1 group-title="Детские",Детский Мир
 http://46.8.46.14/detmir/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские",МультСезон
-http://hls.peers.tv/streaming/cartoon_season/16/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/3uqQWyWxUBYuJNwonbiTQw,1762977218/streaming/multsezon/324/1/index.m3u8
 #EXTINF:-1 group-title="Детские",Gulli Girl
-http://46.8.46.14/Gulli/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=be2e64fec17ec07a561dbd87cad2ae0fc4b7df5a
 #EXTINF:-1 group-title="Детские",Cartoon Network
 http://46.8.46.14/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="boomerang" group-title="Детские",Cartoonito
-http://88.216.112.114/Cartoonito/index.m3u8
+https://cdn1.skygo.mn/live/disk1/Boomerang/HLS-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские", Nickelodeon
-http://46.8.46.14/Nickelodeon/index.m3u8
+http://91.194.191.241:8081/chid401/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские", Nickelodeon HD
 http://91.194.191.241:8081/chid401/mono.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-baltic" group-title="Детские", Nickelodeon Baltic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://tvip.btk.teleos.ru:8081/chid401/mono.m3u8
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские", Nick Jr
 http://46.8.46.14/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="nicktoons" group-title="Детские", Nicktoons
 http://94.232.127.28:8080/nicktoons/index.m3u8
 #EXTINF:-1 group-title="Детские", TiJi
-http://193.27.209.122/tiji/index.m3u8
+http://127.0.0.1:6878/ace/getstream?id=4da0f57fb96330c7f6ad5f4bce0ba93038b628c3
 #EXTINF:-1 group-title="Детские",СуперГерои
 http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:-1 group-title="Детские", Капитан Фантастика
-http://91.194.191.241:8081/chid292/tracks-v1a1/mono.m3u8
+http://api.peers.tv/timeshift/ginger_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjI5NzcyMjMsImlhdCI6MTc2Mjg5MDgyMywiY2lkIjo2LCJ1aWQiOjk2NDA0NTU1MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.cgZImCSrpQdcwSMFseA3aLtDTvEd5nFtXyrDRvIxTps&offset=10
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские", Капитан Фантастика HD
 http://api.peers.tv/timeshift/ginger_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
 #EXTINF:-1 group-title="Детские",Ani
-http://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8
+http://127.0.0.1:6878/ace/getstream?id=9eb31bd34245c4bbe60f0fe6081f854b7d1dde52
 #EXTINF:-1 tvg-logo="https://audioboom.com/i/12414023/768x512/c.png" tvg-id="no_epg_mult" group-title="Детские", FUNNY KIDS
 https://mhd128.iptv2022.com/p/rh0cTcVKl9IJKB_jhIXJoA,1760994010/streaming/anime_kids/324/1/index.m3u8
 #EXTINF:-1 tvg-id="ryzhy" group-title="Детские", Рыжий
@@ -1671,11 +1685,10 @@ http://46.8.46.14/Ryzhiy/index.m3u8
 #EXTINF:-1 tvg-id="tiptop" group-title="Детские", Тип-Топ
 https://mhd128.iptv2022.com/p/owYpYvL1VCNPUNEG_KJmIg,1760994010/streaming/tiptop/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="chizhik" group-title="Детские", Чижик
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/sTlADb62n1RADbFPg7lchQ,1760994010/streaming/chizhikhd/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img/6012.png" group-title="GRAND+ | МУЗ МИР ТЕСТ",  Радио Kids FM
+http://strm.yandex.ru/kal/chizhik/chizhik0.m3u8
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://radiokids.fm/wp-content/themes/sanfirst/images/logo.png" group-title="Детские",Радио Kids FM
 https://cqw2lystveu.a.trbcdn.net/livemaster/7ak8t_live-hv25n82a0l8.smil/tracks-v1a1/mono.m3u8?hls_proxy_host=f4eb0d287702d48f6bbf6e6f56891e63
-#EXTINF:-1 group-title="GRAND + | ДЕТСКИЕ PREMIUM",  Мульт и музыка
+#EXTINF:-1 group-title="Детские", Мульт и музыка
 http://91.142.158.107:8092/play/24/index.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Classics
 http://95.66.188.74/Cartoon_Classics/index.m3u8
@@ -1694,15 +1707,15 @@ http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 https://fl1001.bozztv.com/ushba8/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="detkinoint-tviksel" group-title="Детские" tvg-logo="https://epg.iptvx.one/picons/detkinoint-tviksel.png", Детское кино International
 http://autopilot.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 group-title="EdgeCenter LLC (VPN)" tvg-logo="https://i.postimg.cc/YS90VJYX/image.png",МУЛЬТИКИ И СКАЗКИ
+#EXTINF:-0 tvg-id="no_epg_cinema" group-title="Детские" tvg-logo="https://i.postimg.cc/YS90VJYX/image.png",МУЛЬТИКИ И СКАЗКИ
 https://132544.edgevideo.ru/streams/132544_931352/132544720/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Детские", Сказки Зайки
 http://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
 #EXTINF:-1 tvg-logo="https://viva-russia.ru/wp-content/uploads/2021/09/viva_2002_belyj_zhjoltyj_prjamougolnik.png" tvg-id="viva-rus" group-title="Музыкальные",VIVA TV Russia
 http://132544.edgevideo.ru/streams/132544_713325/1325441080/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.one/img/2837.png" group-title="RUZIEV+ IPTV| TV Музыка", AIVA
+#EXTINF:-1 tvg-id="aiva" group-title="Музыкальные", AIVA
 https://goo.su/F1U5ln
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Kpop Play TV
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://twale.app/storage/channels/kpop.png" group-title="Музыкальные", Kpop Play TV
 https://fl1001.bozztv.com/ushba-m4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://sun9-12.userapi.com/dxomaWxMbPlW1MBpOeAWTCKnfXjUQ0bN-GydAw/brA6yuTSEys.jpg" group-title="Музыкальные", TMF RUS
 https://132544.edgevideo.ru/streams/132544_932351/1325441080/index.m3u8
@@ -1801,7 +1814,7 @@ http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
 https://ca01.utako.moe/mtv/index.m3u8
 #EXTINF:-1 tvg-id="mtv-80s-uk" group-title="Музыкальные", MTV 80s
 http://213.169.39.30:5137
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",MTV 90s
+#EXTINF:-1 tvg-id="mtv90s-uk" group-title="Музыкальные", MTV 90s
 http://127.0.0.1:6878/ace/getstream?id=6de86153b53f8abcc16f56b479f26e79f7bf77bf
 #EXTINF:-1 tvg-id="mtv-hits" group-title="Музыкальные", MTV Hits
 http://94.232.127.28:8080/mtvhits/index.m3u8
@@ -1845,7 +1858,7 @@ http://91.194.191.241:8081/chid475/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные", Bridge TV Фрэш
 http://91.194.191.241:8081/chid467/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные", Bridge TV Шлягер
-http://91.194.191.241:8081/chid98/tracks-v1a1/mono.m3u8
+https://livetv.mylifeisgood.net.ru/channels/bridgetvshlyager.m3u8
 #EXTINF:-1 tvg-id="now-rock" group-title="Музыкальные", Now Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="now70s" group-title="Музыкальные", Now 70's
@@ -1858,7 +1871,7 @@ https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
 http://78.130.250.2:8023/play/a02r/index.m3u8
 #EXTINF:-1 group-title="Музыкальные",Шансон-TB
 http://stream-msk-11.ott.tricolor.tv/dtv/id132_MSKSG-PVR-1--Shanson/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc2MTUzMDQyOCwiaHdpZCI6IjI4YzUzMGRkNTE5NmIwZjQ0ZjkyY2ZhN2RhODVkZDU2ZDE2ZTQ4YjRhZjU2MTA5NTk1YmExNmZkMjYyYzRmNTAiLCJsYXN0X3JlcV9kYXRlIjoxNzYwOTI1NjI4LCJzZXNzaW9uX2lkIjoiY2UzZDlhZTA3NTJlYmJhYWYyNDU4NDI1MjJjZjhkY2EiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.nQarfxv2-Q1EvSL_fuJxWZA2GV6Z1C4vwkTUVIHJUXA
-#EXTINF:-1 group-title="↕️ Торрент ТВ ↕️",Ля-минор
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="la-minor" group-title="Музыкальные", Ля-минор
 http://127.0.0.1:6878/ace/getstream?id=e72eb5bd621666fdcb1cf7689ce9a1f66fe20c22
 #EXTINF:-1 tvg-id="zhar-ptica" group-title="Музыкальные",Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
@@ -1921,11 +1934,11 @@ https://d2esizdt2xkmhp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2l4k8y57npunc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-f08h8nn8dmm6z/Fireplace_4K_SONO20.m3u8
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/40/5c/09/405c093cd19c8f0820329972b5deff0f.jpg" tvg-id="no_epg" group-title="Relax", Fireplace 2
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=83
-#EXTINF:-1 group-title="CloudFlare Inc (VPN 🇷🇺)",Наша Сибирь HD
+#EXTINF:-1 tvg-id="nasha-sibir" group-title="Relax", Наша Сибирь HD
 https://livetv.mylifeisgood.net.ru/channels/nashasibirhd.m3u8
 #EXTINF:-1 tvg-logo="http://i115.fastpic.org/big/2021/0925/60/9fb81f851b8d68ef84ff900adf597f60.png" tvg-id="Sochi Live" group-title="Relax", SOCHI LIVE HD
 http://serv30.vintera.tv:8081/sochi/sochi_stream/chunks.m3u8
-#EXTINF:-1 group-title="GRAND+",  Fashion TV Paris
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://iptvx.one/picons/fashion-tv.png" group-title="Fashion",Fashion TV Paris
 https://fashs043.cloudycdn.services/scte/pg18/pg18_1080p_chunklist.m3u8
 #EXTINF:-1 tvg-id="world-fashion-channel" group-title="Fashion",World Fashion
 https://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
@@ -1948,19 +1961,19 @@ https://fl1001.bozztv.com/ushba-t8/tracks-v1a1/mono.m3u8
 https://fl1001.bozztv.com/ushba-m6/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Fashion" tvg-logo="https://iptvx.one/picons/fashion-tv.png" ,Мода 3
 https://fl1001.bozztv.com/ushba-m7/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 4
+#EXTINF:-1 tvg-id="no_epg" group-title="Fashion" tvg-logo="https://iptvx.one/picons/fashion-tv.png" ,Мода 4
 https://fl1001.bozztv.com/ushba-m8/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 5
+#EXTINF:-1 tvg-id="no_epg" group-title="Fashion" tvg-logo="https://iptvx.one/picons/fashion-tv.png" ,Мода 5
 https://fl1001.bozztv.com/ushba-m9/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="📺 Usba TV" tvg-logo="https://i.postimg.cc/3Jg421y4/1.jpg" ,Мода 6
+#EXTINF:-1 tvg-id="no_epg" group-title="Fashion" tvg-logo="https://iptvx.one/picons/fashion-tv.png" ,Мода 6
 https://fl1001.bozztv.com/ushba-m1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",2x2 (+2)
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",2x2 (+4)
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",2x2 (+7)
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/2na2-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",2x2 (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Домашний +2
@@ -2004,31 +2017,29 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
+https://mhd128.iptv2022.com/p/CGK30FJz8hhtR8bD3CcoUg,1762977217/streaming/muztvplus4/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="http://only4.tv/ch/1313.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Муз ТВ (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
+https://mhd128.iptv2022.com/p/RfItVl-a4qno8Ro3Dm-U8w,1762977217/streaming/ntvplus1/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",НТВ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (-1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8?version=2&offset=-3600
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_2/variant.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+3)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
@@ -2036,57 +2047,57 @@ https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/va
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="pervy-pl4" group-title="Федеральные плюс", Первый HD (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс", Первый канал (+5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_5/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+6)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Первый канал (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+8)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Первый канал (+9)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятница +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://a3569456000-zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
+http://zxfjaukj.akciatv.ru/iptv/WWEX4VRHZ4XEK4/6046/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
+https://mhd128.iptv2022.com/p/X1kaBvt36yFa-vWbfztsLw,1762977217/streaming/5kanalplus4/324/1/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Пятый канал +7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
+https://mhd128.iptv2022.com/p/SRcgTE4UMJBS2JD6dXV2JQ,1762977217/streaming/5kanalplus7/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Рен ТВ +7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные", Россия 1 (Калининград)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/russia1-sd/index.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+2)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/russia1-hd/index.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+3)
@@ -2094,7 +2105,7 @@ http://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/russia1-hd/index.m3u8
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+3)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/3/russia1-hd/index.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 1 (+4)
+#EXTINF:-1 catch-up="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+4)
@@ -2104,7 +2115,7 @@ http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_UUDE_ROSSIA1_ULAN/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+5)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 1 (+6)
+#EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+6)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+6)
@@ -2114,7 +2125,7 @@ http://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
 http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+7)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 1 (+8)
+#EXTINF:-1 catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Россия 1 (+8)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA1/variant.m3u8
 #EXTINF:-1 group-title="Федеральные плюс",Россия 1 HD (+8)
@@ -2136,97 +2147,97 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
 #EXTINF:-1 tvg-id="solnce-pl2" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
-#EXTINF:-1 tvg-logo="http://bezbe.my1.ru/logo/disney.png" group-title="GRAND+ | ZABAVA TV АРХИВ",  Солнце (+4)
+#EXTINF:-1 tvg-id="solnce-pl4" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+4)
 http://a775798246-zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8?version=2
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="http://i121.fastpic.org/big/2022/1215/a2/66abdfbc06a65df7a4b6fff876a28ca2.png", Солнце (+7)
+#EXTINF:-1 tvg-id="solnce-pl7" catchup="append" tvg-logo="https://i.ibb.co/jZ1xyDx/Solnce-220x220.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Солнце (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/-BCWqJdW5YftMHiCshfeCw,1762977217/streaming/solnceplus7/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",СТС (+2)
+#EXTINF:-1 catchup="append" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",СТС (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",СТС (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="http://i121.fastpic.org/big/2023/0303/24/6a3074b0ae10b770627a7f9e6ffe3c24.png", СТС Love (+2)
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/aDePxQ8V8QHAND14kZBRHQ,1762977217/streaming/stsloveplus2/324/1/index.m3u8
-#EXTINF:-1 group-title="Lime (VPN 🇷🇺)" tvg-logo="http://i121.fastpic.org/big/2023/0303/28/37e9749af262c71dee19b25d0f4e7f28.png", СТС Love (+4)
+#EXTINF:-1 catchup="append" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",СТС Love (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 https://mhd128.iptv2022.com/p/jVfnlVDXN6fE34k4_ybjFw,1762977217/streaming/stsloveplus4/324/1/index.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Супер (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Супер (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Супер (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Супер (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТВ3 (+2)
+#EXTINF:-1 tvg-id="tv3-ru-pl2" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТВ3 (+4)
+#EXTINF:-1 tvg-id="tv3-ru-pl4" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТВ3 (+7)
+#EXTINF:-1 tvg-id="tv3-ru-pl7" catchup="append" tvg-logo="https://iptvx.one/picons/tv3-ru-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ3 (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
 #EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/tvcentr-pl2.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ Центр +2
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
-#EXTINF:-1 tvg-logo="http://cdn.server-iptv.live/logo/tv/tv_centr_ru.png" group-title="GRAND+ | IPORG TEST", ТВ Центр +4
+#EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/tvcentr-pl4.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ Центр +4
 http://ip1.orgip.net/176/video.m3u8?token=M4f082ab4c
 #EXTINF:-1 catchup="append" tvg-logo="https://iptvx.one/picons/tvcentr-pl7.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТВ Центр +7
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТНТ (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТНТ (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ТНТ (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp},ТНТ4 (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp},ТНТ4 (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8	
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Че! (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_PERETZ/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Че! (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Че! (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Че! (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Ю (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+2)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Ю (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+4)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Ю (+7)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",Ю (+7)
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 group-title="Вокзал-Инфоком (VPN)",1 Республиканский
+#EXTINF:-1 tvg-logo="https://dan-news.ru/storage/c/2022/02/15/1644911761_141773_87.jpg" tvg-id="no_epg_news" group-title="Региoнальные", 1 Республиканский
 http://217.25.80.16/1_Respublikanskii/mono.m3u8
 #EXTINF:-1 tvg-logo="https://www.usue.ru/public/files/loaded/66277511c4ea8.png" tvg-id="no_epg_news" group-title="Региoнальные", Оплот ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 http://217.114.185.58:8000/play/a01n/index.m3u8
-#EXTINF:-1 group-title="Телевизор 24 (VPN 🇷🇺)",Юнион
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/0d/70/9f/0d709f2a8fd4540c47bfdfec4317fe1d.jpg?nii=t" tvg-id="no_epg_news" group-title="Региoнальные", Юнион
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 https://streaming.televizor-24-tochka.ru/live/27-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 group-title="Телевизор 24 (VPN 🇷🇺)",Луганск 24
+#EXTINF:-1 group-title="Региoнальные", Луганск 24 
 #EXTVLCOPT:http-referrer=https://televizor24tochka.ru/
 https://streaming.televizor-24-tochka.ru/live/29-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/nts-sevastopol.png" tvg-id="nts-sevastopol" group-title="Региoнальные", НТС Севастополь
 http://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/chunklist.m3u8
-#EXTINF:-1 group-title="С сайтов (VPN)",Север
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/sever.png" tvg-id="sever" group-title="Региoнальные", Север 
 https://live2.mediacdn.ru/sr1/sever/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Региoнальные", ОТВ Челябинск HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
@@ -2331,7 +2342,7 @@ http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
 #EXTINF:-1 tvg-id="bars" catchup="append" tvg-logo="https://i.ibb.co/Wzp0hws/d9-WXRks8-200x200.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Барс
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Башкортостан 24
+#EXTINF:-1 tvg-id="bashkortostan24" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Башкортостан 24
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
 #EXTINF:-1 tvg-id="belgorod24" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Белгород 24
@@ -2648,6 +2659,7 @@ http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8
 #EXTINF:-1 tvg-id="rossia-24" catchup="append" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_24.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Россия-24 (Хабаровск)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="https://m.peers.tv/data/illustrations/ills/2020/02/20/192827/192827280.png" group-title="Региoнальные", Ростов-папа HD
 http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8
@@ -2657,9 +2669,9 @@ http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 tvg-id="rusj" catchup="append" tvg-logo="https://kostroma.news/wp-content/uploads/2018/01/OTRK-Rus-300x300.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Русь Кострома
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rybinsk40",Рыбинск-40
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
+#EXTINF:-1 tvg-id="rybinsk40" catchup="append" tvg-logo="http://r40.ru/images/reklama/r40_logo.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Рыбинск-40
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
 #EXTINF:-1 tvg-id="s1-surgut" catchup="append" tvg-logo="http://glaz-tv.online/wp-content/uploads/2018/08/sitv.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",С1 Сургут HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
@@ -2779,9 +2791,9 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_TOLPAR/variant.m3u8
 #EXTINF:-1 tvg-id="tolyatti24" catchup="append" tvg-logo="https://play-lh.googleusercontent.com/byWT0Gi59hfhQ1I5ZlqEkt0IIvnBIhuj3AUFk8EpDmjoNHxsMNmkvcCV5-vwRoLIaQ=s200-rw?.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Тольятти 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
-#EXTINF:-1 group-title="Wink (VPN 🇷🇺)" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tomskoe-vremia",Томское время HD
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-https://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
+#EXTINF:-1 tvg-id="tomskoe-vremia" catchup="append" tvg-logo="https://tomsk-time.ru/uploads/posts/2019-11/1575015528_1575015465.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Томское время HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_TOMSKVREMIA/variant.m3u8
 #EXTINF:-1 tvg-id="no_epg" catchup="append" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQswxT8lYxCzL8vivJTT3lMCBCxLfKNaShoPemqFQ=s220-c-k-c0x00ffffff-no-rj?.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Тува 24 (Кызыл)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
@@ -2815,6 +2827,7 @@ https://stream1.tv41.ru/hls/live.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
 #EXTINF:-1 tvg-id="tnt4-pl2" catchup="append" tvg-logo="https://gl.weburg.net/00/fck/era-tvlogo.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Эра-ТВ (Екатеринбург)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_EKT/variant.m3u8
 #EXTINF:-1 tvg-id="efir24-relax" catchup="append" tvg-logo="https://i.ibb.co/9cH52T9/Efir-24-Relaks-200x195.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Эфир-24 Релакс
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
