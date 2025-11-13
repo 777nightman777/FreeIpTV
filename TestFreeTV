@@ -7,8 +7,8 @@ http://195.191.208.11:8087/udp/238.2.49.234:1234
 #EXTINF:-1 tvg-id="rossia1" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные", Россия 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" group-title="Эфирные", Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Эфирные" ,Россия HD
+http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMxMDcwMzksImlhdCI6MTc2MzAyMDYzOSwiY2lkIjo2LCJ1aWQiOjk2NDQyOTE5NCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.bxFwgmpYFov3e1eplqtrDKBEaE9SnCtM2lPR_Y6kt7c&offset=10
 #EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://epg.iptvx.one/picons/rtr-planeta.png" group-title="Эфирные", РТР-Планета Европа
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 #EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
@@ -25,8 +25,8 @@ http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTINF:-1 tvg-id="ntv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",НТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
-#EXTINF:-1 tvg-id="ntv" group-title="Эфирные",НТВ HD
-http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Эфирные" ,НТВ HD
+http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMxMDcwMzksImlhdCI6MTc2MzAyMDYzOSwiY2lkIjo2LCJ1aWQiOjk2NDQyOTE5NCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.bxFwgmpYFov3e1eplqtrDKBEaE9SnCtM2lPR_Y6kt7c&offset=10
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Эфирные", НТВ Право
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://cdn2.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
@@ -954,8 +954,8 @@ http://iptv46.mcx-ix.ru:8077/amedia_hit_hd/index.m3u8
 http://iptv46.mcx-ix.ru:8077/amedia_premium_hd/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Premium HD
 http://217.21.34.160:38007/amediapremium/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .black
-http://lb.wisp.cat/lb0/Sony_Turbo/mpegts?token=nPfO4rRaax
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы" ,.black
+http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMxMDcwMzksImlhdCI6MTc2MzAyMDYzOSwiY2lkIjo2LCJ1aWQiOjk2NDQyOTE5NCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.bxFwgmpYFov3e1eplqtrDKBEaE9SnCtM2lPR_Y6kt7c&offset=10
 #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы", Sony Turbo
 http://188.190.222.53/Sony_turbo/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .red
