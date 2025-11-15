@@ -600,16 +600,16 @@ http://91.194.191.241:8081/chid472/tracks-v1a1/mono.m3u8
 http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 group-title="Развлекательные",Тео-ТВ
 https://stream.teotv.ru/live/site360/playlist.m3u8
-#EXTINF:-1 tvg-id="eda" group-title="Развлекательные", Еда
-https://blueberry.uvs.onlinetv.link/cdn_origin2/eda/chunks.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Развлекательные" ,Еда Премиум
+http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMyODEzNjUsImlhdCI6MTc2MzE5NDk2NSwiY2lkIjo2LCJ1aWQiOjk2NDk4NDE5NSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.yrgglWbwenVc0r1MgYw9mjFdRG2hi37JgnBLvHKbcps&offset=10
 #EXTINF:-1 tvg-id="eda-hd" group-title="Развлекательные", FoodTime
-http://217.25.80.16/Eda_HD/mono.m3u8
+http://195.191.208.11:8087/udp/238.2.48.141:1234
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ ТВ HD
 http://46.8.46.14/kuhnya/index.m3u8
 #EXTINF:-1 group-title="Развлекательные",Анекдот ТВ
 http://146.120.14.239:3001/play/a08p
 #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные", Сарафан
-http://217.25.80.16/Sarafan/mono.m3u8
+http://146.120.14.239:3001/play/a06q
 #EXTINF:-1 tvg-id="zhivi" group-title="Развлекательные", Живи
 http://46.8.46.14/zhivi/index.m3u8
 #EXTINF:-1 tvg-id="yuvelirochka" group-title="Развлекательные",Ювелирочка
@@ -625,17 +625,17 @@ https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="http://tochkatv.tv/wp-content/uploads/2023/11/magnat_live-1170x720.jpg" group-title="Развлекательные",Магнат
 https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
 #EXTINF:-1 group-title="Познавательные",Viju History
-http://91.194.191.241:8081/chid105/tracks-v1a1/mono.m3u8
+http://91.207.115.228:5000/c96
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Познавательные",Viju History HD
-http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
+http://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMyODEzNjUsImlhdCI6MTc2MzE5NDk2NSwiY2lkIjo2LCJ1aWQiOjk2NDk4NDE5NSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.yrgglWbwenVc0r1MgYw9mjFdRG2hi37JgnBLvHKbcps&offset=10
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные", Viju Nature
-http://192.162.64.99:5000/play/a02p/index.m3u8
+http://91.207.115.228:5000/c97
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" tvg-id="viasat-nature" group-title="Познавательные", Viju Nature HD
-http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
+http://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMyODEzNjUsImlhdCI6MTc2MzE5NDk2NSwiY2lkIjo2LCJ1aWQiOjk2NDk4NDE5NSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.yrgglWbwenVc0r1MgYw9mjFdRG2hi37JgnBLvHKbcps&offset=10
 #EXTINF:-1 group-title="Познавательные",Viju Explore
 http://91.194.191.241:8081/chid106/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Познавательные",Viju Explore HD
-http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjEwMzI3ODAsImlhdCI6MTc2MDk0NjM4MCwiY2lkIjo2LCJ1aWQiOjk1NjIxNzI2OSwicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.xutc13Ciyuh1LU-WPb4uWtycBQ26HN-S1PUwTQ9A8X0&offset=3
+http://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjMyODEzNjUsImlhdCI6MTc2MzE5NDk2NSwiY2lkIjo2LCJ1aWQiOjk2NDk4NDE5NSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.yrgglWbwenVc0r1MgYw9mjFdRG2hi37JgnBLvHKbcps&offset=10
 #EXTINF:-1 tvg-id="history-viasat-en" group-title="Познавательные",Viasat History CEE
 http://94.232.127.28:8080/viasathistory/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные",viju+ Planet HD
