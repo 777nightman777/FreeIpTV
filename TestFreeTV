@@ -9,7 +9,7 @@ http://195.191.208.11:8087/udp/238.2.49.234:1234
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Эфирные" ,Россия HD
-http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/russiahd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="rtr-planeta-eu" tvg-logo="https://epg.iptvx.one/picons/rtr-planeta.png" group-title="Эфирные", РТР-Планета Европа
 http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
 #EXTINF:-1 tvg-id="pervy-info-by" group-title="Эфирные", Первый информационный Беларусь
@@ -27,7 +27,7 @@ http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Эфирные" ,НТВ HD
-http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Эфирные", НТВ Право
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://cdn2.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
@@ -56,7 +56,7 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Эфирные" ,РЕН ТВ HD
-http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="rentv-int" group-title="Эфирные", Рен ТВ International
 http://cdn4.skygo.mn/live/disk1/RenTV/HLSv3-FTA/RenTV.m3u8
 #EXTINF:-1 tvg-id="mir" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные",Мир
@@ -602,7 +602,7 @@ http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 group-title="Развлекательные",Тео-ТВ
 https://stream.teotv.ru/live/site360/playlist.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Развлекательные" ,Еда Премиум
-http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="eda-hd" group-title="Развлекательные", FoodTime
 http://195.191.208.11:8087/udp/238.2.48.141:1234
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Развлекательные", КУХНЯ ТВ HD
@@ -954,13 +954,13 @@ http://lb.wisp.cat/lb0/amediahithd/mpegts?token=nPfO4rRaax
 #EXTINF:-1 group-title="Кино и сериалы",Amedia Premium
 http://195.18.23.20:8000/play/3/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы" ,Amedia Premium HD
-http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы" ,.black
-http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы", Sony Turbo
 http://188.190.222.53/Sony_turbo/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .red
-http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы", Sony ТВ
 http://tvip.btk.teleos.ru:8081/chid85/tracks-v1a1/mono.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .sci-fi
@@ -1984,7 +1984,7 @@ https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/va
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Федеральные плюс" ,Первый канал HD +4
-http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4MDE4MDEsImlhdCI6MTc2MzcxNTQwMSwiY2lkIjo2LCJ1aWQiOjk2Njc2NTk0NiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0.JkE3jCtKuZlHYvf0QlKDe-5Ah_rv_9_xItMZETM6VQ0&offset=10
+http://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJyZWZyZXNoIiwiZXhwIjoxNzYzODgzMTAwLCJpYXQiOjE3NjMyNzgzMDAsImNpZCI6ODEsInVpZCI6ODk4NjQ0NTU0LCJpcCI6MTU5NTYwMzE3MH0.gRRSpDSx_q-wjGEF6u48tW0jPuY1jPg6QMbwwXCMlr0; ptv.sanctions=1763278305343;
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс", Первый канал (+5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_5/variant.m3u8
