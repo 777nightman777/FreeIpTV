@@ -895,8 +895,8 @@ http://46.8.46.14/vipcomedy/index.m3u8
 http://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs&offset=3
 #EXTINF:-1 group-title="Кино и сериалы", VIJU+ SERIAL
 http://tvip.btk.teleos.ru:8081/chid40/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", VIJU+ SERIAL HD
-http://91.194.191.241:8081/chid40/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", viju+ Serial HD
+http://77.235.1.19:8000/play/a05n/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", VIP SERIAL HD
 http://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs&offset=3
 #EXTINF:-1 tvg-id="tv1000-cee" group-title="Кино и сериалы", Viasat Kino
