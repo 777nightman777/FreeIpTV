@@ -955,16 +955,16 @@ http://lb.wisp.cat/lb0/amediahithd/mpegts?token=nPfO4rRaax
 http://195.18.23.20:8000/play/3/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы" ,Amedia Premium HD
 http://api.peers.tv/timeshift/amediapremium_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы" ,.black
-http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs
+#EXTINF:-1 group-title="Кино и сериалы", .Black
+http://158.101.222.193:88/georgia_play.php?id=black
 #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы", Sony Turbo
 http://188.190.222.53/Sony_turbo/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .red
-http://api.peers.tv/timeshift/set/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs
+#EXTINF:-1 group-title="Кино и сериалы", .Red
+http://178.124.152.238:8088/sony
 #EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы", Sony ТВ
 http://tvip.btk.teleos.ru:8081/chid85/tracks-v1a1/mono.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Кино и сериалы", .sci-fi
-http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjM4ODQ0ODQsImlhdCI6MTc2Mzc5ODA4NCwiY2lkIjo2LCJ1aWQiOjk2NzEwMjc5MiwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI2MzYsImFkdWx0IjpmYWxzZX0._fZGlhhpJlRSaXPntelFdviEum1obbpeBY1tmEmqwLs&offset=3
+#EXTINF:-1 group-title="Кино и сериалы", .Sci-Fi
+http://178.124.179.122:8088/Sci-Fi/index.m3u8
 #EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы", Sony Sci-Fi
 http://tvip.btk.teleos.ru:8081/chid77/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="super-baltic" group-title="Кино и сериалы", Super Baltic HD
